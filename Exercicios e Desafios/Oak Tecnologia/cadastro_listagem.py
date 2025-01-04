@@ -26,13 +26,13 @@ def cadastrar_produto():
     else:
       break
 
-  disponivel_produto = input("Disponível para venda (s/n): ").lower()
+  disponivel_produto = input("Disponível para venda (sim/nao): ").lower()
   while True:
-    if disponivel_produto == "s" or disponivel_produto == "n":
+    if disponivel_produto == "sim" or disponivel_produto == "nao":
       break
     else:
-      print("Por favor digite 's' para SIM ou 'n' para NÃO ")
-      disponivel_produto = input("Disponível para venda (s/n): ").lower()
+      print("Por favor digite 'sim' ou 'nao'")
+      disponivel_produto = input("Disponível para venda (sim/nao): ").lower()
 
 
   produto = {
@@ -54,11 +54,11 @@ def listar_produtos():
   else:
     produtos_ordenados = sorted(produtos, key=lambda p: p["valor"])
     print("\nLista de Produtos (ordenados por valor):\n")
-    print(f"{'Nome':<20} {'Valor':>10}")
-    print("-" * 30)
+    print(f"{"Nome":<10} {"":<20} {"Valor":<10} {"disponivel"}")
+    print("-" * 70)
     for produto in produtos_ordenados:
-      print(f"{produto['nome']:<10} {produto['descricao']:<10} R${produto['valor']}")
-    print("-" * 30)
+      print(f"{produto["nome"]:<10} {produto["descricao"]:<20} R${produto["valor"]:<10} {produto["disponivel"]}")
+    print("-" * 70)
 
 
 
