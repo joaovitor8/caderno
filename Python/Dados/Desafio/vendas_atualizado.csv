@@ -1,0 +1,201 @@
+ID_Venda,Data,Produto,Categoria,Quantidade,Preco_Unitario,Total_Venda,Desconto (%),Cliente_ID,Lucro,Classificação_Desconto
+1,2023-12-14,Calca Jeans,Moda,9,200.0,1620.0,10.0,107,1458.0,Baixo
+2,2022-05-19,Livro de Python,Livros,8,80.0,576.0,10.0,108,518.4,Baixo
+3,2022-03-27,Headset Gamer,Eletro,6,400.0,2280.0,5.0,104,2166.0,Baixo
+4,2022-11-16,Camisa,Moda,10,120.0,1020.0,15.0,107,867.0,Baixo
+5,2022-04-30,Notebook,Eletro,8,3500.0,28000.0,0.0,104,28000.0,Baixo
+6,2022-06-30,Notebook,Eletro,4,3500.0,11900.0,15.0,105,10115.0,Baixo
+7,2022-03-28,Camisa,Moda,3,120.0,360.0,0.0,103,360.0,Baixo
+8,2022-11-13,Camisa,Moda,6,120.0,576.0,20.0,109,460.8,Alto
+9,2022-12-04,Headset Gamer,Eletro,5,400.0,2000.0,0.0,102,2000.0,Baixo
+10,2022-05-14,Headset Gamer,Eletro,2,400.0,800.0,0.0,101,800.0,Baixo
+11,2023-09-01,Livro de Python,Livros,2,80.0,144.0,10.0,106,129.6,Baixo
+12,2022-11-24,Relogio Inteligente,Eletro,3,800.0,2280.0,5.0,103,2166.0,Baixo
+13,2023-10-10,E-book de Machine Learning,Livros,2,50.0,95.0,5.0,102,90.25,Baixo
+14,2023-08-24,Camisa,Moda,7,120.0,714.0,15.0,107,606.9,Baixo
+15,2023-07-06,Headset Gamer,Eletro,1,400.0,380.0,5.0,109,361.0,Baixo
+16,2023-11-04,Vestido,Moda,9,250.0,2250.0,0.0,103,2250.0,Baixo
+17,2022-06-18,Relogio Inteligente,Eletro,8,800.0,6400.0,0.0,104,6400.0,Baixo
+18,2023-12-13,E-book de Machine Learning,Livros,10,50.0,425.0,15.0,105,361.25,Baixo
+19,2022-05-30,Relogio Inteligente,Eletro,5,800.0,3800.0,5.0,109,3610.0,Baixo
+20,2023-12-15,E-book de Machine Learning,Livros,10,50.0,450.0,10.0,101,405.0,Baixo
+21,2023-06-12,Camisa,Moda,6,120.0,684.0,5.0,101,649.8,Baixo
+22,2022-07-19,Camisa,Moda,7,120.0,756.0,10.0,104,680.4,Baixo
+23,2023-06-03,Livro de Python,Livros,8,80.0,640.0,0.0,103,640.0,Baixo
+24,2022-07-05,Smartphone,Eletro,8,1500.0,10200.0,15.0,107,8670.0,Baixo
+25,2022-04-11,Notebook,Eletro,5,3500.0,14875.0,15.0,102,12643.75,Baixo
+26,2023-03-23,Smartphone,Eletro,9,1500.0,12825.0,5.0,102,12183.75,Baixo
+27,2022-04-02,Cadeira de Escritorio,Eletro,7,700.0,4900.0,0.0,103,4900.0,Baixo
+28,2022-07-11,E-book de Machine Learning,Livros,7,50.0,315.0,10.0,106,283.5,Baixo
+29,2023-11-13,E-book de Machine Learning,Livros,10,50.0,400.0,20.0,101,320.0,Alto
+30,2023-03-17,Calca Jeans,Moda,3,200.0,570.0,5.0,109,541.5,Baixo
+31,2023-06-29,Relogio Inteligente,Eletro,2,800.0,1360.0,15.0,109,1156.0,Baixo
+32,2022-10-20,Cadeira de Escritorio,Eletro,3,700.0,1785.0,15.0,103,1517.25,Baixo
+33,2023-10-30,Headset Gamer,Eletro,10,400.0,3200.0,20.0,104,2560.0,Alto
+34,2023-05-30,Livro de Python,Livros,1,80.0,80.0,0.0,103,80.0,Baixo
+35,2022-06-12,E-book de Machine Learning,Livros,6,50.0,240.0,20.0,106,192.0,Alto
+36,2023-03-28,Vestido,Moda,3,250.0,675.0,10.0,102,607.5,Baixo
+37,2023-08-21,Headset Gamer,Eletro,10,400.0,3400.0,15.0,109,2890.0,Baixo
+38,2022-03-17,Cadeira de Escritorio,Eletro,6,700.0,3780.0,10.0,102,3402.0,Baixo
+39,2023-09-21,Headset Gamer,Eletro,8,400.0,2560.0,20.0,108,2048.0,Alto
+40,2023-08-15,Vestido,Moda,8,250.0,1900.0,5.0,102,1805.0,Baixo
+41,2022-07-19,Headset Gamer,Eletro,6,400.0,2280.0,5.0,104,2166.0,Baixo
+42,2023-01-22,Headset Gamer,Eletro,3,400.0,1200.0,0.0,106,1200.0,Baixo
+43,2022-03-09,E-book de Machine Learning,Livros,4,50.0,180.0,10.0,103,162.0,Baixo
+44,2023-07-31,Cadeira de Escritorio,Eletro,6,700.0,3990.0,5.0,103,3790.5,Baixo
+45,2022-11-15,Camisa,Moda,1,120.0,102.0,15.0,108,86.7,Baixo
+46,2023-07-26,E-book de Machine Learning,Livros,10,50.0,400.0,20.0,104,320.0,Alto
+47,2023-08-23,Headset Gamer,Eletro,5,400.0,1600.0,20.0,101,1280.0,Alto
+48,2023-07-24,Cadeira de Escritorio,Eletro,9,700.0,5985.0,5.0,108,5685.75,Baixo
+49,2022-11-03,Camisa,Moda,6,120.0,720.0,0.0,107,720.0,Baixo
+50,2022-07-03,Headset Gamer,Eletro,2,400.0,640.0,20.0,105,512.0,Alto
+51,2023-05-13,E-book de Machine Learning,Livros,3,50.0,135.0,10.0,108,121.5,Baixo
+52,2022-08-23,Notebook,Eletro,7,3500.0,19600.0,20.0,109,15680.0,Alto
+53,2023-12-18,Calca Jeans,Moda,2,200.0,340.0,15.0,109,289.0,Baixo
+54,2023-11-17,Headset Gamer,Eletro,3,400.0,1020.0,15.0,103,867.0,Baixo
+55,2023-01-02,Relogio Inteligente,Eletro,5,800.0,3600.0,10.0,104,3240.0,Baixo
+56,2022-10-05,Calca Jeans,Moda,6,200.0,1140.0,5.0,104,1083.0,Baixo
+57,2022-08-05,E-book de Machine Learning,Livros,4,50.0,190.0,5.0,106,180.5,Baixo
+58,2023-10-07,Relogio Inteligente,Eletro,4,800.0,3040.0,5.0,105,2888.0,Baixo
+59,2023-01-09,E-book de Machine Learning,Livros,8,50.0,360.0,10.0,109,324.0,Baixo
+60,2022-05-19,Livro de Python,Livros,7,80.0,476.0,15.0,106,404.6,Baixo
+61,2022-04-02,Camisa,Moda,7,120.0,756.0,10.0,104,680.4,Baixo
+62,2023-05-14,Smartphone,Eletro,10,1500.0,12000.0,20.0,102,9600.0,Alto
+63,2023-06-18,Headset Gamer,Eletro,8,400.0,2560.0,20.0,108,2048.0,Alto
+64,2023-02-11,E-book de Machine Learning,Livros,9,50.0,360.0,20.0,109,288.0,Alto
+65,2022-08-22,Notebook,Eletro,8,3500.0,22400.0,20.0,103,17920.0,Alto
+66,2023-09-12,Relogio Inteligente,Eletro,5,800.0,3800.0,5.0,102,3610.0,Baixo
+67,2023-11-07,Calca Jeans,Moda,7,200.0,1330.0,5.0,108,1263.5,Baixo
+68,2022-10-05,Headset Gamer,Eletro,3,400.0,1080.0,10.0,105,972.0,Baixo
+69,2023-05-18,Notebook,Eletro,5,3500.0,14000.0,20.0,107,11200.0,Alto
+70,2023-05-31,Calca Jeans,Moda,9,200.0,1800.0,0.0,103,1800.0,Baixo
+71,2023-04-29,Relogio Inteligente,Eletro,10,800.0,6400.0,20.0,108,5120.0,Alto
+72,2023-10-05,Calca Jeans,Moda,7,200.0,1400.0,0.0,102,1400.0,Baixo
+73,2023-10-21,Relogio Inteligente,Eletro,9,800.0,7200.0,0.0,104,7200.0,Baixo
+74,2022-01-07,Calca Jeans,Moda,8,200.0,1600.0,0.0,107,1600.0,Baixo
+75,2023-08-03,Calca Jeans,Moda,9,200.0,1800.0,0.0,102,1800.0,Baixo
+76,2023-06-21,E-book de Machine Learning,Livros,5,50.0,225.0,10.0,101,202.5,Baixo
+77,2022-05-30,Cadeira de Escritorio,Eletro,3,700.0,1995.0,5.0,101,1895.25,Baixo
+78,2023-09-10,Smartphone,Eletro,9,1500.0,11475.0,15.0,101,9753.75,Baixo
+79,2022-04-04,Smartphone,Eletro,4,1500.0,5100.0,15.0,103,4335.0,Baixo
+80,2022-01-23,Livro de Python,Livros,6,80.0,432.0,10.0,104,388.8,Baixo
+81,2022-12-01,Notebook,Eletro,3,3500.0,9975.0,5.0,108,9476.25,Baixo
+82,2022-06-16,Livro de Python,Livros,10,80.0,760.0,5.0,106,722.0,Baixo
+83,2023-09-25,Calca Jeans,Moda,2,200.0,360.0,10.0,104,324.0,Baixo
+84,2022-08-09,Livro de Python,Livros,5,80.0,320.0,20.0,102,256.0,Alto
+85,2023-09-13,Calca Jeans,Moda,6,200.0,1200.0,0.0,102,1200.0,Baixo
+86,2022-12-02,Livro de Python,Livros,8,80.0,576.0,10.0,108,518.4,Baixo
+87,2022-01-27,Camisa,Moda,1,120.0,102.0,15.0,102,86.7,Baixo
+88,2022-01-18,Livro de Python,Livros,7,80.0,476.0,15.0,105,404.6,Baixo
+89,2023-03-01,Smartphone,Eletro,3,1500.0,4050.0,10.0,104,3645.0,Baixo
+90,2023-06-08,Calca Jeans,Moda,10,200.0,2000.0,0.0,104,2000.0,Baixo
+91,2022-09-23,Headset Gamer,Eletro,1,400.0,320.0,20.0,101,256.0,Alto
+92,2022-06-25,E-book de Machine Learning,Livros,10,50.0,500.0,0.0,105,500.0,Baixo
+93,2023-04-10,Vestido,Moda,1,250.0,212.5,15.0,107,180.625,Baixo
+94,2023-06-25,Livro de Python,Livros,1,80.0,80.0,0.0,104,80.0,Baixo
+95,2023-06-23,Vestido,Moda,9,250.0,1912.5,15.0,102,1625.625,Baixo
+96,2022-11-12,Smartphone,Eletro,9,1500.0,11475.0,15.0,107,9753.75,Baixo
+97,2023-05-14,Camisa,Moda,10,120.0,960.0,20.0,106,768.0,Alto
+98,2022-08-01,Smartphone,Eletro,9,1500.0,10800.0,20.0,104,8640.0,Alto
+99,2023-02-09,Calca Jeans,Moda,8,200.0,1520.0,5.0,106,1444.0,Baixo
+100,2022-11-24,Relogio Inteligente,Eletro,10,800.0,6400.0,20.0,101,5120.0,Alto
+101,2023-10-01,Smartphone X,Eletro,1,2500.0,2500.0,10.0,101,2250.0,Baixo
+102,2023-10-02,Camiseta Básica,Moda,2,50.0,100.0,0.0,102,100.0,Baixo
+103,2023-10-03,O Senhor dos Anéis,Livros,1,80.0,80.0,5.0,103,76.0,Baixo
+104,2023-10-04,Fone de Ouvido Bluetooth,Eletro,3,120.0,360.0,15.0,104,306.0,Baixo
+105,2023-10-05,Calça Jeans,Moda,1,150.0,150.0,0.0,105,150.0,Baixo
+106,2023-10-06,Tablet Y,Eletro,1,1200.0,1200.0,20.0,106,960.0,Alto
+107,2023-10-07,Moletom,Moda,2,90.0,180.0,0.0,107,180.0,Baixo
+108,2023-10-08,1984,Livros,1,45.0,45.0,10.0,108,40.5,Baixo
+109,2023-10-09,Smartwatch Z,Eletro,1,800.0,800.0,0.0,109,800.0,Baixo
+110,2023-10-10,Vestido Floral,Moda,1,200.0,200.0,5.0,110,190.0,Baixo
+111,2023-10-11,Notebook A,Eletro,1,3500.0,3500.0,0.0,101,3500.0,Baixo
+112,2023-10-12,Jaqueta de Couro,Moda,1,450.0,450.0,10.0,102,405.0,Baixo
+113,2023-10-13,A Revolução dos Bichos,Livros,2,30.0,60.0,0.0,103,60.0,Baixo
+114,2023-10-14,Câmera DSLR,Eletro,1,2800.0,2800.0,15.0,104,2380.0,Baixo
+115,2023-10-15,Shorts,Moda,3,70.0,210.0,0.0,105,210.0,Baixo
+116,2023-10-16,Fone de Ouvido com Fio,Eletro,2,50.0,100.0,0.0,106,100.0,Baixo
+117,2023-10-17,Camisa Social,Moda,1,120.0,120.0,5.0,107,114.0,Baixo
+118,2023-10-18,O Hobbit,Livros,1,60.0,60.0,0.0,108,60.0,Baixo
+119,2023-10-19,Impressora Laser,Eletro,1,900.0,900.0,10.0,109,810.0,Baixo
+120,2023-10-20,Saia,Moda,2,85.0,170.0,0.0,110,170.0,Baixo
+121,2023-10-21,Smartphone W,Eletro,1,2200.0,2200.0,0.0,101,2200.0,Baixo
+122,2023-10-22,Blusa de Frio,Moda,1,130.0,130.0,5.0,102,123.5,Baixo
+123,2023-10-23,O Grande Gatsby,Livros,1,40.0,40.0,0.0,103,40.0,Baixo
+124,2023-10-24,Tablet X,Eletro,1,1100.0,1100.0,20.0,104,880.0,Alto
+125,2023-10-25,Bermuda,Moda,3,60.0,180.0,0.0,105,180.0,Baixo
+126,2023-10-26,Caixa de Som Bluetooth,Eletro,2,200.0,400.0,0.0,106,400.0,Baixo
+127,2023-10-27,Casaco,Moda,1,300.0,300.0,10.0,107,270.0,Baixo
+128,2023-10-28,Orgulho e Preconceito,Livros,1,35.0,35.0,0.0,108,35.0,Baixo
+129,2023-10-29,"Monitor 24""",Eletro,1,700.0,700.0,15.0,109,595.0,Baixo
+130,2023-10-30,Blusa de Renda,Moda,1,95.0,95.0,0.0,110,95.0,Baixo
+131,2023-10-31,Notebook B,Eletro,1,4000.0,4000.0,0.0,101,4000.0,Baixo
+132,2023-11-01,Jaqueta Jeans,Moda,1,180.0,180.0,5.0,102,171.0,Baixo
+133,2023-11-02,O Pequeno Príncipe,Livros,2,25.0,50.0,0.0,103,50.0,Baixo
+134,2023-11-03,Smartphone V,Eletro,1,2100.0,2100.0,10.0,104,1890.0,Baixo
+135,2023-11-04,Calça Legging,Moda,2,75.0,150.0,0.0,105,150.0,Baixo
+136,2023-11-05,Fone de Ouvido Sem Fio,Eletro,1,150.0,150.0,0.0,106,150.0,Baixo
+137,2023-11-06,Camisa Polo,Moda,1,110.0,110.0,5.0,107,104.5,Baixo
+138,2023-11-07,O Guia do Mochileiro das Galáxias,Livros,1,50.0,50.0,0.0,108,50.0,Baixo
+139,2023-11-08,Smartwatch Y,Eletro,1,750.0,750.0,0.0,109,750.0,Baixo
+140,2023-11-09,Vestido Longo,Moda,1,250.0,250.0,10.0,110,225.0,Baixo
+141,2023-11-10,Notebook C,Eletro,1,3200.0,3200.0,0.0,101,3200.0,Baixo
+142,2023-11-11,Blusa de Tricô,Moda,1,90.0,90.0,0.0,102,90.0,Baixo
+143,2023-11-12,1984,Livros,1,45.0,45.0,5.0,103,42.75,Baixo
+144,2023-11-13,Câmera Mirrorless,Eletro,1,3000.0,3000.0,15.0,104,2550.0,Baixo
+145,2023-11-14,Shorts Jeans,Moda,2,65.0,130.0,0.0,105,130.0,Baixo
+146,2023-11-15,Fone de Ouvido com Cancelamento de Ruído,Eletro,1,300.0,300.0,0.0,106,300.0,Baixo
+147,2023-11-16,Camisa de Linho,Moda,1,140.0,140.0,10.0,107,126.0,Baixo
+148,2023-11-17,O Senhor dos Anéis,Livros,1,80.0,80.0,0.0,108,80.0,Baixo
+149,2023-11-18,Impressora Jato de Tinta,Eletro,1,500.0,500.0,0.0,109,500.0,Baixo
+150,2023-11-19,Saia Jeans,Moda,1,70.0,70.0,5.0,110,66.5,Baixo
+151,2023-11-20,Smartphone U,Eletro,1,2300.0,2300.0,0.0,101,2300.0,Baixo
+152,2023-11-21,Blusa de Alcinha,Moda,2,55.0,110.0,0.0,102,110.0,Baixo
+153,2023-11-22,O Grande Gatsby,Livros,1,40.0,40.0,0.0,103,40.0,Baixo
+154,2023-11-23,Tablet Z,Eletro,1,1000.0,1000.0,20.0,104,800.0,Alto
+155,2023-11-24,Bermuda Tactel,Moda,3,50.0,150.0,0.0,105,150.0,Baixo
+156,2023-11-25,Caixa de Som Portátil,Eletro,1,250.0,250.0,0.0,106,250.0,Baixo
+157,2023-11-26,Casaco de Inverno,Moda,1,400.0,400.0,15.0,107,340.0,Baixo
+158,2023-11-27,Orgulho e Preconceito,Livros,1,35.0,35.0,0.0,108,35.0,Baixo
+159,2023-11-28,"Monitor 27""",Eletro,1,900.0,900.0,0.0,109,900.0,Baixo
+160,2023-11-29,Blusa de Seda,Moda,1,120.0,120.0,5.0,110,114.0,Baixo
+161,2023-11-30,Notebook D,Eletro,1,3800.0,3800.0,0.0,101,3800.0,Baixo
+162,2023-12-01,Jaqueta Corta-Vento,Moda,1,200.0,200.0,0.0,102,200.0,Baixo
+163,2023-12-02,O Pequeno Príncipe,Livros,2,25.0,50.0,0.0,103,50.0,Baixo
+164,2023-12-03,Smartphone T,Eletro,1,2400.0,2400.0,10.0,104,2160.0,Baixo
+165,2023-12-04,Calça de Moletom,Moda,2,85.0,170.0,0.0,105,170.0,Baixo
+166,2023-12-05,Fone de Ouvido Esportivo,Eletro,1,180.0,180.0,0.0,106,180.0,Baixo
+167,2023-12-06,Camisa Social Slim,Moda,1,130.0,130.0,5.0,107,123.5,Baixo
+168,2023-12-07,O Guia do Mochileiro das Galáxias,Livros,1,50.0,50.0,0.0,108,50.0,Baixo
+169,2023-12-08,Smartwatch X,Eletro,1,700.0,700.0,0.0,109,700.0,Baixo
+170,2023-12-09,Vestido Curto,Moda,1,180.0,180.0,10.0,110,162.0,Baixo
+171,2023-12-10,Notebook E,Eletro,1,4200.0,4200.0,0.0,101,4200.0,Baixo
+172,2023-12-11,Blusa de Manga Longa,Moda,1,100.0,100.0,0.0,102,100.0,Baixo
+173,2023-12-12,1984,Livros,1,45.0,45.0,5.0,103,42.75,Baixo
+174,2023-12-13,Câmera Compacta,Eletro,1,1500.0,1500.0,15.0,104,1275.0,Baixo
+175,2023-12-14,Shorts de Banho,Moda,2,40.0,80.0,0.0,105,80.0,Baixo
+176,2023-12-15,Fone de Ouvido com Microfone,Eletro,1,90.0,90.0,0.0,106,90.0,Baixo
+177,2023-12-16,Camisa de Cetim,Moda,1,160.0,160.0,10.0,107,144.0,Baixo
+178,2023-12-17,O Senhor dos Anéis,Livros,1,80.0,80.0,0.0,108,80.0,Baixo
+179,2023-12-18,Impressora Multifuncional,Eletro,1,600.0,600.0,0.0,109,600.0,Baixo
+180,2023-12-19,Saia Plissada,Moda,1,90.0,90.0,5.0,110,85.5,Baixo
+181,2023-12-20,Smartphone S,Eletro,1,2600.0,2600.0,0.0,101,2600.0,Baixo
+182,2023-12-21,Blusa de Renda,Moda,2,60.0,120.0,0.0,102,120.0,Baixo
+183,2023-12-22,O Grande Gatsby,Livros,1,40.0,40.0,0.0,103,40.0,Baixo
+184,2023-12-23,Tablet W,Eletro,1,950.0,950.0,20.0,104,760.0,Alto
+185,2023-12-24,Bermuda de Sarja,Moda,3,55.0,165.0,0.0,105,165.0,Baixo
+186,2023-12-25,Caixa de Som à Prova D'água,Eletro,1,300.0,300.0,0.0,106,300.0,Baixo
+187,2023-12-26,Casaco de Lã,Moda,1,350.0,350.0,15.0,107,297.5,Baixo
+188,2023-12-27,Orgulho e Preconceito,Livros,1,35.0,35.0,0.0,108,35.0,Baixo
+189,2023-12-28,"Monitor 32""",Eletro,1,1200.0,1200.0,0.0,109,1200.0,Baixo
+190,2023-12-29,Blusa de Veludo,Moda,1,110.0,110.0,5.0,110,104.5,Baixo
+191,2023-12-30,Notebook F,Eletro,1,4500.0,4500.0,0.0,101,4500.0,Baixo
+192,2023-12-31,Jaqueta de Couro Falso,Moda,1,170.0,170.0,0.0,102,170.0,Baixo
+193,2024-01-01,O Pequeno Príncipe,Livros,2,25.0,50.0,0.0,103,50.0,Baixo
+194,2024-01-02,Smartphone R,Eletro,1,2700.0,2700.0,10.0,104,2430.0,Baixo
+195,2024-01-03,Calça de Sarja,Moda,2,95.0,190.0,0.0,105,190.0,Baixo
+196,2024-01-04,Fone de Ouvido com Cancelamento de Ruído,Eletro,1,350.0,350.0,0.0,106,350.0,Baixo
+197,2024-01-05,Camisa Social Clássica,Moda,1,150.0,150.0,5.0,107,142.5,Baixo
+198,2024-01-06,O Guia do Mochileiro das Galáxias,Livros,1,50.0,50.0,0.0,108,50.0,Baixo
+199,2024-01-07,Smartwatch W,Eletro,1,800.0,800.0,0.0,109,800.0,Baixo
+200,2024-01-08,Vestido de Festa,Moda,1,300.0,300.0,10.0,110,270.0,Baixo

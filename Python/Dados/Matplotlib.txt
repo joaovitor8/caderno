@@ -1,0 +1,66 @@
+Aqui está uma lista com os principais comandos do **Matplotlib** e uma breve explicação sobre cada um deles:
+
+---
+
+### **1. Importação e Configuração**
+- `import matplotlib.pyplot as plt` → Importa o módulo principal da Matplotlib para criação de gráficos.
+- `plt.style.use('ggplot')` → Define um estilo para os gráficos (outros estilos: `'seaborn'`, `'classic'`, etc.).
+- `plt.figure(figsize=(8, 6))` → Define o tamanho da figura (largura x altura em polegadas).
+
+---
+
+### **2. Criando Gráficos Simples**
+- `plt.plot(x, y, label='Dados')` → Cria um gráfico de linha com os valores de `x` e `y`.
+- `plt.scatter(x, y, label='Pontos')` → Cria um gráfico de dispersão (scatter plot).
+- `plt.bar(x, y, label='Barras')` → Cria um gráfico de barras verticais.
+- `plt.barh(x, y, label='Barras Horizontais')` → Cria um gráfico de barras horizontais.
+- `plt.hist(dados, bins=10, label='Histograma')` → Cria um histograma com `10` divisões (bins).
+- `plt.pie(valores, labels=nomes, autopct='%1.1f%%')` → Cria um gráfico de pizza com porcentagem.
+
+---
+
+### **3. Personalização de Gráficos**
+- `plt.xlabel('Eixo X')` → Define o nome do eixo X.
+- `plt.ylabel('Eixo Y')` → Define o nome do eixo Y.
+- `plt.title('Título do Gráfico')` → Define o título do gráfico.
+- `plt.legend()` → Adiciona uma legenda ao gráfico (usa os rótulos definidos com `label`).
+- `plt.grid(True)` → Adiciona uma grade ao gráfico.
+- `plt.xticks(rotation=45)` → Rotaciona os rótulos do eixo X.
+- `plt.yticks(fontsize=12)` → Define o tamanho da fonte dos rótulos do eixo Y.
+
+---
+
+### **4. Ajuste de Eixos**
+- `plt.xlim(min, max)` → Define os limites do eixo X.
+- `plt.ylim(min, max)` → Define os limites do eixo Y.
+- `plt.axis([xmin, xmax, ymin, ymax])` → Define os limites de ambos os eixos.
+
+---
+
+### **5. Cores, Marcadores e Linhas**
+- `plt.plot(x, y, color='red', linestyle='--', marker='o')` → Personaliza cor, tipo de linha e marcador.
+  - **Cores**: `'red'`, `'blue'`, `'green'`, `'black'`, etc.
+  - **Estilos de linha**: `'-'` (sólida), `'--'` (tracejada), `':'` (pontilhada), `'-.'` (traço-ponto).
+  - **Marcadores**: `'o'` (círculo), `'s'` (quadrado), `'^'` (triângulo), `'d'` (diamante).
+
+---
+
+### **6. Subplots (Múltiplos Gráficos)**
+- `plt.subplot(2, 1, 1)` → Cria um subplot (2 linhas, 1 coluna, posição 1).
+- `plt.subplot(2, 1, 2)` → Cria um subplot na posição 2.
+- `plt.subplots(2, 2, figsize=(10, 8))` → Cria uma grade de 2x2 subplots com tamanho definido.
+
+---
+
+### **7. Salvando Gráficos**
+- `plt.savefig('grafico.png', dpi=300)` → Salva o gráfico como uma imagem em alta resolução.
+- `plt.savefig('grafico.pdf')` → Salva o gráfico em formato PDF.
+
+---
+
+### **8. Exibição do Gráfico**
+- `plt.show()` → Exibe o gráfico na tela.
+
+---
+
+Se quiser exemplos práticos ou mais detalhes sobre algum comando, me avise! 🚀

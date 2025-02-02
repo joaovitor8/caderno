@@ -1,0 +1,89 @@
+Importação e Configuração
+import pandas as pd: Importa a biblioteca Pandas com o alias `pd` (padrão para facilitar o uso)
+
+---
+
+Criação de Estruturas de Dados
+pd.Series(data): Cria uma série unidimensional a partir de uma lista, dicionário ou array
+pd.DataFrame(data): Cria um DataFrame (tabela de dados) a partir de listas, dicionários, arrays ou outra fonte
+
+---
+
+Leitura de Arquivos
+pd.read_csv('arquivo.csv'): Lê um arquivo CSV e retorna um DataFrame
+pd.read_excel('arquivo.xlsx'): Lê um arquivo Excel e retorna um DataFrame
+pd.read_json('arquivo.json'): Lê um arquivo JSON e retorna um DataFrame
+
+---
+
+Visualização de Dados
+df.head(n): Mostra as primeiras `n` linhas do DataFrame (por padrão, as 5 primeiras)
+df.tail(n): Mostra as últimas `n` linhas do DataFrame
+df.info(): Exibe informações sobre o DataFrame, como o tipo de dados e memória
+df.describe(): Mostra estatísticas descritivas para colunas numéricas (média, mediana, etc.)
+
+---
+
+Seleção de Dados
+df['coluna']: Seleciona uma coluna específica como uma Series
+df[['col1', 'col2']]: Seleciona várias colunas e retorna um DataFrame
+df.loc[linha, coluna]: Seleciona dados por rótulos (index e nomes de colunas)
+df.iloc[linha, coluna]: Seleciona dados por índices numéricos (linha e coluna)
+
+---
+
+Filtragem de Dados
+df[df['coluna'] > valor]: Filtra linhas onde a condição é verdadeira
+df.query('coluna > valor'): Outra forma de filtrar linhas com condições
+
+---
+
+Manipulação de Dados
+df['nova_coluna'] = valores: Adiciona ou modifica uma coluna
+df.drop('coluna', axis=1): Remove uma coluna (axis=1 indica colunas)
+df.drop([0, 1], axis=0): Remove linhas pelos índices
+df.rename(columns={'antigo': 'novo'}): Renomeia colunas
+
+---
+
+Estatísticas
+df.mean(): Calcula a média de cada coluna numérica
+df.sum(): Soma os valores de cada coluna
+df.count(): Conta o número de valores não nulos em cada coluna
+df.max() / df.min(): Retorna o maior/menor valor
+
+---
+
+Agrupamento
+df.groupby('coluna').sum(): Agrupa os dados por valores únicos de uma coluna e calcula a soma
+df.pivot_table(values='coluna_valor', index='coluna_index', aggfunc='mean'): Cria uma tabela dinâmica
+
+---
+
+Ordenação
+df.sort_values('coluna'): Ordena o DataFrame com base em uma coluna
+df.sort_index(): Ordena o DataFrame com base no índice
+
+---
+
+Tratamento de Dados Nulos
+df.isnull(): Verifica valores nulos no DataFrame
+df.fillna(valor): Substitui valores nulos por um valor específico
+df.dropna(): Remove linhas ou colunas com valores nulos
+
+---
+
+Salvar Arquivos
+df.to_csv('arquivo.csv'): Salva o DataFrame em um arquivo CSV
+df.to_excel('arquivo.xlsx'): Salva o DataFrame em um arquivo Excel
+df.to_json('arquivo.json'): Salva o DataFrame em um arquivo JSON
+
+---
+
+Operações Avançadas
+df.apply(func): Aplica uma função a cada elemento/coluna/linha
+df.merge(df2, on='coluna'): Realiza um merge entre dois DataFrames com base em uma coluna
+df.concat([df1, df2]): Concatena dois DataFrames verticalmente ou horizontalmente
+df.melt(): Converte colunas em linhas (reshape dos dados)
+df.pivot(index, columns, values): Reorganiza os dados (transforma linhas em colunas)
+
