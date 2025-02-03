@@ -1,91 +1,83 @@
-Aqui está uma lista com os principais comandos do **NumPy** e uma breve explicação sobre cada um deles:
+Importação e Configuração
+import numpy as np → Importa a biblioteca NumPy com o alias `np` (padrão).
 
 ---
 
-### **1. Importação e Configuração**
-- `import numpy as np` → Importa a biblioteca NumPy com o alias `np` (padrão).
+Criação de Arrays
+np.array([1, 2, 3]) → Cria um array NumPy a partir de uma lista.
+np.zeros((3, 3)) → Cria uma matriz 3×3 preenchida com zeros.
+np.ones((2, 2)) → Cria uma matriz 2×2 preenchida com uns.
+np.full((2, 3), 7) → Cria uma matriz 2×3 preenchida com o número 7.
+np.eye(4) → Cria uma matriz identidade 4×4.
+np.random.rand(3, 3) → Cria uma matriz 3×3 com valores aleatórios entre 0 e 1.
+np.random.randint(0, 10, (2, 3)) → Cria uma matriz 2×3 com inteiros aleatórios entre 0 e 10.
 
 ---
 
-### **2. Criação de Arrays**
-- `np.array([1, 2, 3])` → Cria um array NumPy a partir de uma lista.
-- `np.zeros((3, 3))` → Cria uma matriz 3×3 preenchida com zeros.
-- `np.ones((2, 2))` → Cria uma matriz 2×2 preenchida com uns.
-- `np.full((2, 3), 7)` → Cria uma matriz 2×3 preenchida com o número 7.
-- `np.eye(4)` → Cria uma matriz identidade 4×4.
-- `np.random.rand(3, 3)` → Cria uma matriz 3×3 com valores aleatórios entre 0 e 1.
-- `np.random.randint(0, 10, (2, 3))` → Cria uma matriz 2×3 com inteiros aleatórios entre 0 e 10.
+Propriedades dos Arrays
+arr.shape → Retorna a forma (dimensões) do array.
+arr.size → Retorna o número total de elementos no array.
+arr.ndim → Retorna o número de dimensões do array.
+arr.dtype → Retorna o tipo de dado dos elementos do array.
 
 ---
 
-### **3. Propriedades dos Arrays**
-- `arr.shape` → Retorna a forma (dimensões) do array.
-- `arr.size` → Retorna o número total de elementos no array.
-- `arr.ndim` → Retorna o número de dimensões do array.
-- `arr.dtype` → Retorna o tipo de dado dos elementos do array.
+Indexação e Slicing
+arr[0] → Retorna o primeiro elemento do array.
+arr[1, 2] → Retorna o elemento na linha 1, coluna 2 (matrizes).
+arr[:, 1] → Retorna todos os elementos da segunda coluna.
+arr[1:4] → Retorna os elementos do índice 1 ao 3.
+arr[::-1] → Retorna o array invertido.
 
 ---
 
-### **4. Indexação e Slicing**
-- `arr[0]` → Retorna o primeiro elemento do array.
-- `arr[1, 2]` → Retorna o elemento na linha 1, coluna 2 (matrizes).
-- `arr[:, 1]` → Retorna todos os elementos da segunda coluna.
-- `arr[1:4]` → Retorna os elementos do índice 1 ao 3.
-- `arr[::-1]` → Retorna o array invertido.
+Operações Matemáticas
+np.add(arr1, arr2) → Soma elemento a elemento.
+np.subtract(arr1, arr2) → Subtrai elemento a elemento.
+np.multiply(arr1, arr2) → Multiplica elemento a elemento.
+np.divide(arr1, arr2) → Divide elemento a elemento.
+np.sqrt(arr) → Calcula a raiz quadrada de cada elemento.
+np.exp(arr) → Calcula o exponencial de cada elemento.
+np.log(arr) → Calcula o logaritmo natural de cada elemento.
+np.abs(arr) → Retorna o valor absoluto de cada elemento.
 
 ---
 
-### **5. Operações Matemáticas**
-- `np.add(arr1, arr2)` → Soma elemento a elemento.
-- `np.subtract(arr1, arr2)` → Subtrai elemento a elemento.
-- `np.multiply(arr1, arr2)` → Multiplica elemento a elemento.
-- `np.divide(arr1, arr2)` → Divide elemento a elemento.
-- `np.sqrt(arr)` → Calcula a raiz quadrada de cada elemento.
-- `np.exp(arr)` → Calcula o exponencial de cada elemento.
-- `np.log(arr)` → Calcula o logaritmo natural de cada elemento.
-- `np.abs(arr)` → Retorna o valor absoluto de cada elemento.
+Estatísticas
+np.mean(arr) → Retorna a média dos elementos.
+np.median(arr) → Retorna a mediana dos elementos.
+np.std(arr) → Retorna o desvio padrão dos elementos.
+np.var(arr) → Retorna a variância dos elementos.
+np.min(arr) → Retorna o menor valor do array.
+np.max(arr) → Retorna o maior valor do array.
+np.sum(arr) → Soma todos os elementos do array.
+np.cumsum(arr) → Retorna a soma cumulativa dos elementos.
+np.argmax(arr) → Retorna o índice do maior elemento.
+np.argmin(arr) → Retorna o índice do menor elemento.
 
 ---
 
-### **6. Estatísticas**
-- `np.mean(arr)` → Retorna a média dos elementos.
-- `np.median(arr)` → Retorna a mediana dos elementos.
-- `np.std(arr)` → Retorna o desvio padrão dos elementos.
-- `np.var(arr)` → Retorna a variância dos elementos.
-- `np.min(arr)` → Retorna o menor valor do array.
-- `np.max(arr)` → Retorna o maior valor do array.
-- `np.sum(arr)` → Soma todos os elementos do array.
-- `np.cumsum(arr)` → Retorna a soma cumulativa dos elementos.
-- `np.argmax(arr)` → Retorna o índice do maior elemento.
-- `np.argmin(arr)` → Retorna o índice do menor elemento.
+Manipulação de Arrays
+arr.reshape(2, 3) → Redimensiona um array para 2 linhas e 3 colunas.
+arr.flatten() → Transforma um array multidimensional em um array 1D.
+np.concatenate((arr1, arr2), axis=0) → Concatena arrays ao longo de um eixo.
+np.hstack((arr1, arr2)) → Concatena horizontalmente (eixo 1).
+np.vstack((arr1, arr2)) → Concatena verticalmente (eixo 0).
+np.split(arr, 2, axis=1) → Divide o array em partes ao longo de um eixo.
 
 ---
 
-### **7. Manipulação de Arrays**
-- `arr.reshape(2, 3)` → Redimensiona um array para 2 linhas e 3 colunas.
-- `arr.flatten()` → Transforma um array multidimensional em um array 1D.
-- `np.concatenate((arr1, arr2), axis=0)` → Concatena arrays ao longo de um eixo.
-- `np.hstack((arr1, arr2))` → Concatena horizontalmente (eixo 1).
-- `np.vstack((arr1, arr2))` → Concatena verticalmente (eixo 0).
-- `np.split(arr, 2, axis=1)` → Divide o array em partes ao longo de um eixo.
+Álgebra Linear
+np.dot(arr1, arr2) → Produto escalar entre dois arrays.
+np.matmul(arr1, arr2) → Multiplicação de matrizes.
+np.linalg.inv(arr) → Retorna a matriz inversa.
+np.linalg.det(arr) → Retorna o determinante da matriz.
+np.linalg.eig(arr) → Retorna os autovalores e autovetores.
+np.linalg.solve(A, b) → Resolve um sistema linear Ax = b.
 
 ---
 
-### **8. Álgebra Linear**
-- `np.dot(arr1, arr2)` → Produto escalar entre dois arrays.
-- `np.matmul(arr1, arr2)` → Multiplicação de matrizes.
-- `np.linalg.inv(arr)` → Retorna a matriz inversa.
-- `np.linalg.det(arr)` → Retorna o determinante da matriz.
-- `np.linalg.eig(arr)` → Retorna os autovalores e autovetores.
-- `np.linalg.solve(A, b)` → Resolve um sistema linear Ax = b.
-
----
-
-### **9. Comparações e Máscaras**
-- `arr > 5` → Retorna um array booleano indicando onde os valores são maiores que 5.
-- `arr[arr > 5]` → Filtra os elementos maiores que 5.
-- `np.where(arr > 5, 'Alto', 'Baixo')` → Substitui valores com base em uma condição.
-
----
-
-Se precisar de exemplos práticos ou quiser aprofundar em algum comando, me avise! 🚀
+Comparações e Máscaras
+arr > 5 → Retorna um array booleano indicando onde os valores são maiores que 5.
+arr[arr > 5] → Filtra os elementos maiores que 5.
+np.where(arr > 5, 'Alto', 'Baixo') → Substitui valores com base em uma condição.
