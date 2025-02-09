@@ -56,3 +56,81 @@ plt.savefig('grafico.pdf') → Salva o gráfico em formato PDF.
 
 Exibição do Gráfico
 plt.show() → Exibe o gráfico na tela.
+
+
+
+
+
+
+--------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+### 📊 **1. Gráfico de Linhas (`plt.plot`)**
+✔ **Quando usar:**  
+- Para mostrar a **tendência** de um conjunto de dados ao longo do tempo.  
+- Quando há uma relação entre **variáveis contínuas** (ex: temperatura ao longo dos meses).  
+- Análise de séries temporais.  
+
+---
+
+### 📈 **2. Gráfico de Dispersão (`plt.scatter`)**
+✔ **Quando usar:**  
+- Para visualizar a **relação entre duas variáveis**.  
+- Ideal para **identificar padrões e outliers**.  
+- Útil em Análise de Dados e Machine Learning.  
+
+---
+
+### 📊 **3. Gráfico de Barras (`plt.bar` e `plt.barh`)**
+✔ **Quando usar:**  
+- Comparar **categorias discretas**.  
+- Representação de **frequências ou quantidades**.  
+
+---
+
+### 📊 **4. Histograma (`plt.hist`)**
+✔ **Quando usar:**  
+- Para visualizar a **distribuição de uma variável contínua**.  
+- Muito utilizado em estatística e Machine Learning para entender **densidade e frequência de dados**.  
+
+---
+
+### 🥧 **5. Gráfico de Pizza (`plt.pie`)**
+✔ **Quando usar:**  
+- Mostrar a **proporção de cada categoria** em relação ao total.  
+- Melhor para até **5-6 categorias** (evite muitos segmentos).  
+
+---
+
+### 📊 **6. Boxplot (`plt.boxplot`)**
+✔ **Quando usar:**  
+- Para visualizar a **distribuição e dispersão** de dados.  
+- Identificar **outliers, mediana, quartis**.  
+
+---
+
+### 📊 **7. Heatmap (Mapa de Calor - `plt.imshow`)**
+✔ **Quando usar:**  
+- Para visualizar **dados matriciais** (ex: correlação entre variáveis).  
+- Muito utilizado em ciência de dados e aprendizado de máquina.  
+
+---
+
+## 🚀 **Conclusão**
+| Tipo de Gráfico | Quando Usar |
+|---------------|------------|
+| **Linha** (`plot`) | Mostrar tendências ao longo do tempo |
+| **Dispersão** (`scatter`) | Relação entre duas variáveis |
+| **Barras** (`bar`, `barh`) | Comparação entre categorias |
+| **Histograma** (`hist`) | Distribuição de dados contínuos |
+| **Pizza** (`pie`) | Proporção entre categorias |
+| **Boxplot** (`boxplot`) | Distribuição e outliers |
+| **Heatmap** (`imshow`, `sns.heatmap`) | Relação entre múltiplas variáveis |
+
