@@ -1,0 +1,50 @@
+Para retornarmos todos os campos de uma tabela utilizamos a seguinte estrutura:
+   SELECT * FROM nome da tabela;
+
+----------
+
+Para retornarmos os dados filtrando por alguma característica específica utilizamos a cláusula WHERE da seguinte forma:
+   SELECT * FROM nome da tabela WHERE nome da coluna = dado que desejamos consultar;
+
+----------
+
+Para filtrarmos os dados distintos contidos em uma coluna específica usamos a cláusula DISTINCT da seguinte maneira:
+   SELECT DISTINCT nome da coluna FROM nome da tabela
+
+----------
+
+CREATE TABLE tabelaclientes (
+  ID_Cliente INT PRIMARY KEY,
+  Nome_Cliente VARCHAR (250),
+  Informacoes_de_Contato VARCHAR (250)
+  );
+
+----------
+
+O comando DROP em SQL é usado para excluir um objeto do banco de dados. Podemos excluir índices, tabelas, bancos de dados, usuários, funções, entre outros.
+   DROP tipo_do_objeto nome_do_objeto;
+
+----------
+
+O comando ALTER é usado para alterar a estrutura de um objeto existente em um banco de dados. Ele pode ser usado para adicionar, modificar ou excluir colunas em uma tabela existente. Também pode ser usado para adicionar e soltar várias restrições em uma tabela existente.
+   ALTER TABLE nome_da_tabela
+   ADD nome_da_coluna tipo_de_dado;
+
+----------
+
+Para excluir uma coluna de uma tabela, usamos a sintaxe:
+   ALTER TABLE nome_da_tabela
+   DROP COLUMN nome_da_coluna;
+
+----------
+
+O comando ALTER TABLE para adicionar uma coluna com o endereço dos clientes na tabela de clientes da seguinte forma:
+   ALTER TABLE tabelaclientes ADD Endereço_Cliente VARCHAR (250);
+
+----------
+
+O comando DROP TABLE excluindo a mesma tabela de clientes dessa maneira:
+   DROP TABLE tabelaclientes
+
+----------
+
