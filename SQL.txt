@@ -64,8 +64,11 @@ CREATE TABLE tabelaprodutos (
 ----------
 
 Comando para inserir dados em uma tabela:
-   INSER INTO nome_tabela ()
-   VALUES ()
+   INSERT INTO tabela_destino (coluna1, coluna2, ... )
+   SELECT coluna1, coluna2, ... 
+
+   FROM tabela_origem
+   WHERE condição;
 
 ----------
 
