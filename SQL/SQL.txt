@@ -1,148 +1,109 @@
-Comandos Básicos de Seleção de Dados
-  Selecionar todos os campos de uma tabela:
-    SELECT * FROM nome_da_tabela;
-  Filtrar dados com a cláusula `WHERE`:
-    SELECT * FROM nome_da_tabela WHERE nome_da_coluna = 'valor_desejado';
-  Selecionar valores distintos com `DISTINCT`:
-    SELECT DISTINCT nome_da_coluna FROM nome_da_tabela;
+Selecionar todos os campos de uma tabela:
+  SELECT * FROM nome_tabela;
 
----
 
-Criação e Modificação de Tabelas
-  Criar uma tabela de clientes:
-    CREATE TABLE tabelaclientes (
-      ID_Cliente INT PRIMARY KEY,
-      Nome_Cliente VARCHAR(250),
-      Informacoes_de_Contato VARCHAR(250)
-    );
+Filtrar dados com a cláusula  `WHERE`:
+  SELECT * FROM nome_tabela WHERE nome_coluna = 'valor_desejado';
 
-  Adicionar uma nova coluna em uma tabela (`ALTER TABLE`):
-    ALTER TABLE tabelaclientes ADD Endereço_Cliente VARCHAR(250);
-  Excluir uma coluna de uma tabela:
-    ALTER TABLE nome_da_tabela DROP COLUMN nome_da_coluna;
-  Excluir uma tabela (`DROP TABLE`):
-    DROP TABLE tabelaclientes;
 
----
+Selecionar valores distintos com  `DISTINCT`:
+  SELECT DISTINCT nome_coluna FROM nome_tabela;
 
-Criação de Relacionamentos
-  Criar uma tabela de produtos com chaves estrangeiras:
-    CREATE TABLE tabelaprodutos (
-      ID_Produto INT PRIMARY KEY,
-      Nome_do_Produto VARCHAR(250),
-      Descrição TEXT,
-      Categoria INT,
-      Preco_de_Compra DECIMAL(10,2),
-      Unidade VARCHAR(50),
-      Fornecedor INT,
-      Data_de_Inclusao DATE,
-      FOREIGN KEY (Categoria) REFERENCES tabelacategorias(id_categoria),
-      FOREIGN KEY (Fornecedor) REFERENCES tabelafornecedores(id)
-    );
 
----
+Criar uma tabela:
+  CREATE TABLE nome_tabela (
+    ID INT PRIMARY KEY,
+    nome_coluna1 VARCHAR(250),
+    nome_coluna2 VARCHAR(250)
+  );
+
+
+Adicionar uma nova coluna em uma tabela  `ALTER TABLE`:
+  ALTER TABLE nome_tabela ADD nome_coluna VARCHAR(250);
+
+
+Excluir uma coluna de uma tabela:
+  ALTER TABLE nome_tabela DROP COLUMN nome_coluna;
+
+
+Excluir uma tabela  `DROP TABLE`:
+  DROP TABLE nome_tabela;
+
+
+Criar uma tabela com chaves estrangeiras:
+  CREATE TABLE nome_tabela (
+    id INT PRIMARY KEY,
+    nome_coluna1 VARCHAR(250),
+    nome_coluna2 TEXT,
+    nome_coluna3 INT,
+    nome_coluna4 DECIMAL(10,2),
+    nome_coluna5 DATE,
+    FOREIGN KEY (nome_coluna3) REFERENCES nome_tabela_referencia(id_categoria),
+    FOREIGN KEY (nome_coluna4) REFERENCES nome_tabela_referencia(id)
+  );
+
 
 Inserir dados:
-  INSERT INTO nome_tabela (coluna1, coluna2, ...)
-  VALUES (coluna1, coluna2, ...),
-    (coluna1, coluna2, ...),
-    (coluna1, coluna2, ...),
-    (coluna1, coluna2, ...);
-
+  INSERT INTO tabela_destino (coluna1, coluna2, ...)
+  VALUES (dados_coluna1, dados_coluna2, ...),
+    (dados_coluna1, dados_coluna2, ...),
+    (dados_coluna1, dados_coluna2, ...),
+    (dados_coluna1, dados_coluna2, ...);
 
 
 Inserir dados a partir de outra tabela:
   INSERT INTO tabela_destino (coluna1, coluna2, ...)
-  SELECT coluna1, coluna2, ... 
+  SELECT (dados_coluna1, dados_coluna2, ... )
   FROM tabela_origem
-  WHERE condição;
+  WHERE condicao;
 
----
 
-Filtragem de Dados
-  Filtrar pedidos com valor maior que 200:
-    SELECT * FROM tabelapedidos WHERE total_do_pedido > 200;
-  Filtrar pedidos com valor maior ou igual a 200:
-    SELECT * FROM tabelapedidos WHERE total_do_pedido >= 200;
-  Filtrar pedidos menores que 200:
-    SELECT * FROM tabelapedidos WHERE total_do_pedido < 200;
-  Filtrar pedidos diferentes de 200:
-    SELECT * FROM tabelapedidos WHERE total_do_pedido <> 200;
+Filtros no SQL:   ( <> == Diferente )
+  SELECT * FROM nome_tabela WHERE nome_coluna <> 12345;
 
----
+  SELECT * FROM nome_tabela WHERE nome_coluna > 'J';
 
-Filtragem de Textos e Datas**
-  Clientes cujo nome começa com letra C ou posterior:
-    SELECT * FROM tabelaclientes WHERE nome_cliente > 'C';
-  Pedidos feitos a partir de 19 de setembro de 2023:
-    SELECT * FROM tabelapedidos WHERE data_do_pedido > '2023-09-19';
+  SELECT * FROM nome_coluna WHERE nome_coluna > '2023-09-19';
 
----
 
-Filtros Compostos
-  Pedidos acima de 200 reais e com status "Pendente":
-    SELECT * FROM tabelapedidos WHERE total_do_pedido >= 200 AND status = 'Pendente';
-  Pedidos com status "Pendente" ou "Processando":
-    SELECT * FROM tabelapedidos WHERE status = 'Pendente' OR status = 'Processando';
-  Pedidos com status diferente de "Pendente":
-    SELECT * FROM tabelapedidos WHERE NOT status = 'Pendente';
+Filtros Compostos:
+  SELECT * FROM nome_tabela WHERE nome_coluna >= 200 AND status = 'Pendente';
 
----
+  SELECT * FROM nome_tabela WHERE status = 'Pendente' OR status = 'Processando';
 
-Filtros com Intervalos (`BETWEEN`)
-  Pedidos com data de envio entre 1º de agosto e 1º de setembro de 2023:
-    SELECT * FROM tabelapedidos WHERE data_de_envio_estimada BETWEEN '2023-08-01' AND '2023-09-01';
+  SELECT * FROM nome_tabela WHERE NOT status = 'Pendente';
 
----
 
-Ordenação de Dados
+Filtros com Intervalos  `BETWEEN`:
+  SELECT * FROM nome_tabela WHERE nome_coluna BETWEEN '2023-08-01' AND '2023-09-01';
+
+
+Ordenação de Dados:
   Ordenar produtos pelo nome (alfabética):
-    SELECT * FROM tabelaprodutos WHERE preco_de_compra BETWEEN 200 AND 600 ORDER BY nome_do_produto;
+    SELECT * FROM nome_tabela WHERE nome_coluna BETWEEN 200 AND 600 ORDER BY nome_do_produto;
+
   Ordenar produtos por data de inclusão:
-    SELECT * FROM tabelaprodutos WHERE preco_de_compra BETWEEN 200 AND 600 ORDER BY data_de_inclusao;
+    SELECT * FROM nome_tabela WHERE nome_coluna BETWEEN 200 AND 600 ORDER BY data_de_inclusao;
+
   Ordenar de forma decrescente (`DESC`):
-    SELECT * FROM tabelaprodutos WHERE preco_de_compra BETWEEN 200 AND 600 ORDER BY fornecedor DESC;
-
----
-
-Alias (Apelidos para Colunas)
-  Renomear colunas temporariamente na consulta:
-    SELECT informacoes_de_contato AS email_cliente FROM tabelaclientes;
-
----
-
-UPDATE Produtos
-SET Preco = 120
-WHERE Preco > 100;
-
----
-
-DELETE FROM tabelafornecedores WHERE pais_de_origem = 'Turquia';
+    SELECT * FROM nome_tabela WHERE nome_coluna BETWEEN 200 AND 600 ORDER BY fornecedor DESC;
 
 
+Renomear colunas temporariamente na consulta - Alias (Apelidos para Colunas)
+  SELECT nome_coluna_original AS nome_coluna_apelido FROM nome_tabela;
 
+
+Atualizar dados:
+  UPDATE nome_coluna
+  SET dado_novo = 120
+  WHERE dado_para_atualizar > 100;
+
+
+Excluir dados:
+  DELETE FROM nome_tabela WHERE nome_coluna = 'Turquia';
+
+  Acompanhado de um operador lógico para excluir todos os fornecedores que possuíam ID maior que 35:
+    DELETE FROM nome_tabela WHERE id > 35;
 
 
 
-
-
-
-Aprendemos a atualizar os nossos dados utilizando a cláusula UPDATE. Alteramos os pedidos que estavam com o status “processando” para o status de “enviado”, da tabela de pedidos da seguinte forma:
-
-UPDATE tabelapedidos SET status = 'Enviado' WHERE status = 'Processando';
-Copiar código
-Também alteramos os dados de um cliente da tabela de clientes utilizando o seguimento código:
-
-UPDATE tabelaclientes SET informacoes_de_contato = 'j.santos@email.com',
-endereço_cliente = 'Rua dos paralelepípedos, 30' 
-WHERE id_cliente = 2;
-Copiar código
-Excluímos alguns dados da tabela de fornecedores utilizando o comando DELETE.
-
-Foram excluídos todos os fornecedores que tinham como país de origem a Turquia:
-
-DELETE FROM tabelafornecedores WHERE país_de_origem = 'Turquia';
-Copiar código
-Utilizamos o comando DELETE acompanhado de um operador lógico para excluir todos os fornecedores que possuíam ID maior que 35:
-
-DELETE FROM tabelafornecedores WHERE id > 35;
