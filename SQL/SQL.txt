@@ -100,18 +100,18 @@ Filtros Compostos:
   SELECT * FROM nome_tabela WHERE NOT status = 'Pendente';
 
 
-Filtros com Intervalos  `BETWEEN`:
+Filtros com Intervalos  BETWEEN:
   SELECT * FROM nome_tabela WHERE nome_coluna BETWEEN '2023-08-01' AND '2023-09-01';
 
 
 Ordenação de Dados:
-  Ordenar produtos pelo nome (alfabética):
+  Ordenar produtos pelo nome  alfabética:
     SELECT * FROM nome_tabela WHERE nome_coluna BETWEEN 200 AND 600 ORDER BY nome_do_produto;
 
   Ordenar produtos por data de inclusão:
     SELECT * FROM nome_tabela WHERE nome_coluna BETWEEN 200 AND 600 ORDER BY data_de_inclusao;
 
-  Ordenar de forma decrescente (`DESC`):
+  Ordenar de forma decrescente  DESC  ou  ASC:
     SELECT * FROM nome_tabela WHERE nome_coluna BETWEEN 200 AND 600 ORDER BY fornecedor DESC;
 
 
