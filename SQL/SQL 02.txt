@@ -1,0 +1,105 @@
+1 - Cláusulas e Operadores:
+  LIMIT: Restringe o número de resultados retornados por uma consulta.
+    SELECT * FROM nome_tabela LIMIT 10;
+
+  IS NULL: Filtra resultados onde o valor da coluna é nulo.
+    SELECT * FROM nome_tabela WHERE nome_coluna IS NULL;
+
+  NOT NULL: Filtra resultados onde o valor da coluna não é nulo.
+    SELECT * FROM nome_tabela WHERE nome_coluna IS NOT NULL;
+
+2 - Operadores de Comparação:
+  LIKE: Utilizado para buscas com padrões.
+    SELECT * FROM nome_tabela WHERE nome_coluna LIKE 'A%';
+
+  AND: Combina condições onde ambas devem ser verdadeiras.
+    SELECT * FROM nome_tabela WHERE coluna1 = 'valor1' AND coluna2 = 'valor2';
+
+  OR: Combina condições onde pelo menos uma deve ser verdadeira.
+    SELECT * FROM nome_tabela WHERE coluna1 = 'valor1' OR coluna2 = 'valor2';
+
+  IN: Verifica se um valor está dentro de uma lista de valores.
+    SELECT * FROM nome_tabela WHERE nome_coluna IN ('valor1', 'valor2', 'valor3');
+
+  NOT: Nega uma condição.
+    SELECT * FROM nome_tabela WHERE NOT nome_coluna = 'valor';
+
+3 - Funções de Agregação:
+  MAX: Retorna o maior valor de uma coluna.
+    SELECT MAX(nome_coluna) FROM nome_tabela;
+
+  MIN: Retorna o menor valor de uma coluna.
+    SELECT MIN(nome_coluna) FROM nome_tabela;
+
+  SUM: Soma os valores de uma coluna.
+    SELECT SUM(nome_coluna) FROM nome_tabela;
+
+  COUNT: Conta o número de registros.
+    SELECT COUNT(*) FROM nome_tabela;
+
+  AVG: Calcula a média dos valores.
+    SELECT AVG(nome_coluna) FROM nome_tabela;
+
+  GROUP BY: Agrupa os resultados com base em uma ou mais colunas.
+    SELECT nome_coluna, COUNT(*) FROM nome_tabela GROUP BY nome_coluna;
+
+  HAVING: Filtra os grupos criados pelo GROUP BY.
+    SELECT nome_coluna, COUNT(*) FROM nome_tabela GROUP BY nome_coluna HAVING COUNT(*) > 5;
+
+4 - Funções de Manipulação de Dados:
+
+  - Funções de String:
+    TRIM: Remove espaços em branco do início e fim de uma string.
+      SELECT TRIM('   texto   ');
+
+    INSTR: Retorna a posição de uma substring dentro de uma string.
+      SELECT INSTR('exemplo de texto', 'de');
+
+    REPLACE: Substitui partes de uma string por outra.
+      SELECT REPLACE('exemplo de texto', 'texto', 'string');
+
+    SUBSTR (ou SUBSTRING): Retorna uma parte de uma string.
+      SELECT SUBSTR('exemplo de texto', 1, 7);
+
+  - Funções de Data e Hora:
+    DATE: Retorna apenas a data de um valor.
+      SELECT DATE('2025-03-10 14:30:00');
+
+    TIME: Retorna apenas o horário de um valor.
+      SELECT TIME('2025-03-10 14:30:00');
+
+    DATETIME: Retorna data e hora combinadas.
+      SELECT DATETIME('now');
+
+    CURRENT_TIMESTAMP: Retorna a data e hora atuais do sistema.
+      SELECT CURRENT_TIMESTAMP;
+
+  - Funções Numéricas:
+    POWER: Calcula a potência de um número.
+      SELECT POWER(2, 3);
+
+    SQRT: Retorna a raiz quadrada de um número.
+      SELECT SQRT(25);
+
+    RANDOM: Gera um número aleatório.
+      SELECT RANDOM();
+
+    ABS: Retorna o valor absoluto de um número.
+      SELECT ABS(-10);
+
+    HEX: Converte um número para hexadecimal.
+      SELECT HEX(255);
+
+5 - Outros Comandos:
+  CASE: Estrutura condicional usada em consultas.
+    SELECT nome_coluna,
+      CASE 
+        WHEN valor > 100 THEN 'Alto'
+        WHEN valor BETWEEN 50 AND 100 THEN 'Médio'
+        ELSE 'Baixo'
+      END AS classificacao
+    FROM nome_tabela;
+
+  RENAME: Renomeia tabelas ou colunas.
+    ALTER TABLE nome_tabela RENAME TO nova_tabela;
+
