@@ -6,6 +6,8 @@ Imagine que você seja o responsável por criar e gerenciar um banco de dados pa
 Desafio
 Sua missão é dar os primeiros passos para configurar e usar esse banco de dados.
 
+---
+
 1 - Criar tabelas
 O primeiro passo é definir a estrutura do banco de dados, criando tabelas para armazenar informações específicas. Utilizaremos SQL (Structured Query Language) para criar as tabelas. Aqui estão os dados que você pode utilizar:
 
@@ -58,10 +60,13 @@ ID do Aluno: Uma chave estrangeira que faz referência ao aluno.
 ID da Disciplina: Uma chave estrangeira que faz referência à disciplina.
 Valor da Nota: A nota atribuída ao aluno na disciplina.
 Data da Avaliação: A data em que a avaliação foi realizada.
+
+---
+
 2 - Inserir dados
 Depois de criar as tabelas, é hora de inserir os dados.
 
-Para isso, você pode baixar aqui neste link, todos os arquivos com os dados para popular todas as tabelas.
+---
 
 3 - Realizar consultas simples
 Com os dados inseridos nas tabelas, podemos realizar consultas simples para obter informações úteis, como:
