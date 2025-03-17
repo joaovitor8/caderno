@@ -1,0 +1,9 @@
+Consulta 1: Retorne todas as disciplinas
+
+Consulta 2: Retorne os alunos que estão aprovados na disciplina de matemática
+
+Consulta 3: Identificar o total de disciplinas por turma
+
+Consulta 4: Porcentagem dos alunos que estão aprovados
+
+Consulta 5: Porcentagem dos alunos que estão aprovados por disciplina

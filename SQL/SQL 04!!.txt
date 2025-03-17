@@ -1,0 +1,25 @@
+Limitar o número de dados extraídos usando LIMIT;
+Extrair valores das datas com strftime;
+Filtrar valores por datas combinando strftime e WHERE.
+
+---
+
+Como se preparar para uma reunião transformando pautas em consultas;
+Responder questionamentos em uma reunião interpretando resultados de consultas;
+Utilizar o Join para trazer informações de outras tabelas;
+Combinar dados com GroupBy;
+Ordenar dados com OrderBy.
+
+---
+
+Calcular o total de vendas através do tempo utilizando JOIN;
+Criar uma visualização de total de vendas;
+Criar uma tabela de comparação de vendas utilizando CASE WHEN;
+Criar uma visualização de comparação entre fornecedores;
+Cálculo de porcentagem utilizando ROUND e subconsultas.
+
+---
+
+Análise sazonal dos dados;
+Calcular a porcentagem de vendas;
+Utilizar o comando WITH para criar nossa métrica de porcentagem de vendas.

@@ -1,0 +1,66 @@
+1 - Operadores de Combinação de Consultas:
+  UNION: Combina os resultados de duas ou mais consultas, removendo duplicatas.
+    SELECT coluna1, coluna2 FROM tabela1
+    UNION
+    SELECT coluna1, coluna2 FROM tabela2;
+
+  UNION ALL: Combina os resultados de duas ou mais consultas sem remover duplicatas.
+    SELECT coluna1, coluna2 FROM tabela1
+    UNION ALL
+    SELECT coluna1, coluna2 FROM tabela2;
+
+2 - Subconsultas:
+  Uso de subconsultas:
+    SELECT * FROM tabela1 WHERE coluna1 IN (
+      SELECT coluna1 FROM tabela2 WHERE condicao
+    );
+
+  Uso de subconsultas com HAVING:
+    SELECT coluna1, COUNT(*) FROM tabela1
+    GROUP BY coluna1
+    HAVING COUNT(*) > (
+      SELECT AVG(quantidade) FROM tabela2
+    );
+
+3 - Junções entre Tabelas:
+  INNER JOIN: Retorna apenas os registros que possuem correspondência em ambas as tabelas.
+    SELECT tabela1.coluna, tabela2.coluna
+    FROM tabela1
+    INNER JOIN tabela2 ON tabela1.id = tabela2.id;
+
+  LEFT JOIN: Retorna todos os registros da tabela da esquerda e os correspondentes da tabela da direita. Se não houver correspondência, retorna NULL.
+    SELECT tabela1.coluna, tabela2.coluna
+    FROM tabela1
+    LEFT JOIN tabela2 ON tabela1.id = tabela2.id;
+
+  RIGHT JOIN: Retorna todos os registros da tabela da direita e os correspondentes da tabela da esquerda.
+    SELECT tabela1.coluna, tabela2.coluna
+    FROM tabela1
+    RIGHT JOIN tabela2 ON tabela1.id = tabela2.id;
+
+  FULL JOIN: Retorna todos os registros quando há correspondência em uma das tabelas.
+    SELECT tabela1.coluna, tabela2.coluna
+    FROM tabela1
+    FULL JOIN tabela2 ON tabela1.id = tabela2.id;
+
+4 - Views e Triggers:
+  Criando uma VIEW:
+    CREATE VIEW nome_view AS
+    SELECT coluna1, coluna2 FROM tabela1 WHERE condicao;
+
+  Utilizando VIEWs em consultas:
+    SELECT * FROM nome_view;
+
+  Criando uma TRIGGER para INSERT:
+    CREATE TRIGGER nome_trigger
+    AFTER INSERT ON tabela1
+    FOR EACH ROW
+    BEGIN
+      INSERT INTO log_tabela (acao, data)
+      VALUES ('Inserção realizada', CURRENT_TIMESTAMP);
+    END;
+
+  Acionamento de uma TRIGGER:
+    TRIGGERs são ativadas automaticamente quando o evento associado (INSERT, UPDATE, DELETE) ocorre na tabela especificada.
+
+
