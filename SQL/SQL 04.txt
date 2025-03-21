@@ -1,0 +1,81 @@
+1 - Limitação e Extração de Dados:
+  LIMIT: Restringe o número de resultados retornados por uma consulta.
+    SELECT * FROM nome_tabela LIMIT 10;
+
+  STRFTIME: Extrai partes específicas de uma data.
+    SELECT STRFTIME('%Y-%m', data_coluna) FROM nome_tabela;
+
+  Filtrando valores por datas combinando STRFTIME e WHERE:
+    SELECT * FROM nome_tabela
+    WHERE STRFTIME('%Y-%m', data_coluna) = '2023-01';
+
+2 - Organização e Interpretação de Dados:
+  Transformação de pautas em consultas:
+    - Preparar consultas SQL com base nos tópicos de uma reunião.
+
+  Interpretação de resultados em reuniões:
+    - Entender e explicar os dados retornados por consultas SQL.
+
+  JOIN para trazer informações de outras tabelas:
+    SELECT t1.coluna, t2.coluna
+    FROM tabela1 t1
+    JOIN tabela2 t2 ON t1.id = t2.id;
+
+  Combinação de dados com GROUP BY:
+    SELECT categoria, COUNT(*)
+    FROM produtos
+    GROUP BY categoria;
+
+  Ordenação de dados com ORDER BY:
+    SELECT * FROM nome_tabela ORDER BY nome_coluna DESC;
+
+3 - Análise de Vendas e Comparações:
+  Cálculo do total de vendas através do tempo utilizando JOIN:
+    SELECT t1.data, SUM(t2.valor) as total_vendas
+    FROM vendas t1
+    JOIN produtos t2 ON t1.produto_id = t2.id
+    GROUP BY t1.data;
+
+  Criação de visualização de total de vendas:
+    CREATE VIEW total_vendas AS
+    SELECT t1.data, SUM(t2.valor) as total_vendas
+    FROM vendas t1
+    JOIN produtos t2 ON t1.produto_id = t2.id
+    GROUP BY t1.data;
+
+  Tabela de comparação de vendas utilizando CASE WHEN:
+    SELECT produto, 
+      CASE 
+        WHEN vendas > 1000 THEN 'Alto'
+        WHEN vendas BETWEEN 500 AND 1000 THEN 'Médio'
+        ELSE 'Baixo'
+      END AS classificacao
+    FROM relatorio_vendas;
+
+  Visualização de comparação entre fornecedores:
+    SELECT fornecedor, SUM(valor) AS total_vendas
+    FROM vendas
+    GROUP BY fornecedor;
+
+  Cálculo de porcentagem utilizando ROUND e subconsultas:
+    SELECT produto, ROUND((vendas / (SELECT SUM(vendas) FROM vendas_totais)) * 100, 2) AS percentual
+    FROM vendas_totais;
+
+4 - Análise Sazonal e Cálculo de Porcentagens:
+  Análise sazonal dos dados:
+    - Identificação de tendências de vendas em períodos específicos.
+
+  Cálculo da porcentagem de vendas:
+    SELECT categoria, (SUM(vendas) * 100.0 / (SELECT SUM(vendas) FROM vendas_totais)) AS percentual
+    FROM vendas_totais
+    GROUP BY categoria;
+
+  Utilização do comando WITH para criar métrica de porcentagem de vendas:
+    WITH total_vendas AS (
+      SELECT categoria, SUM(valor) AS total
+      FROM vendas
+      GROUP BY categoria
+    )
+    SELECT categoria, (total * 100.0 / (SELECT SUM(total) FROM total_vendas)) AS percentual
+    FROM total_vendas;
+
