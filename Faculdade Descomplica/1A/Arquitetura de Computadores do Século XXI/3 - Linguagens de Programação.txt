@@ -1,0 +1,76 @@
+As linguagens de programação são conjuntos de regras e símbolos usados para criar programas de computador. Elas permitem que humanos escrevam instruções que os computadores podem entender e executar.
+
+----------
+
+Classificação das Linguagens
+
+a) Linguagens de Baixo Nível
+São mais próximas da linguagem da máquina, oferecendo maior controle sobre o hardware, mas sendo mais difíceis de entender e programar.
+
+Linguagem de Máquina: Escrito diretamente em código binário (0s e 1s).
+
+Assembly: Usa mnemônicos para representar instruções da máquina, sendo mais legível que o código binário, mas ainda complexo.
+
+
+b) Linguagens de Alto Nível
+Mais próximas da linguagem humana, facilitando a programação e reduzindo a complexidade.
+
+Exemplos: C, Java, Python, JavaScript, Ruby
+
+Permitem portabilidade, pois podem rodar em diferentes sistemas operacionais com poucas modificações.
+
+
+c) Linguagens de Muito Alto Nível
+São ainda mais abstratas e voltadas para tarefas específicas.
+
+Exemplos: SQL (bancos de dados), MATLAB (cálculos matemáticos), R (estatística).
+
+----------
+
+Paradigmas de Programação
+Os paradigmas determinam o estilo e a abordagem da linguagem de programação.
+
+a) Programação Imperativa
+Baseada em instruções sequenciais que alteram o estado do programa.
+
+Exemplos: C, Python, Java
+
+
+b) Programação Orientada a Objetos (POO)
+Organiza o código em objetos, que representam entidades do mundo real com atributos (dados) e métodos (ações).
+
+Exemplos: Java, Python, C++, C#
+
+
+c) Programação Funcional
+Foca em funções matemáticas e evita mudanças de estado.
+
+Exemplos: Haskell, Lisp, Scala
+
+
+d) Programação Lógica
+Baseada em regras e inferências lógicas para resolver problemas.
+
+Exemplo: Prolog
+
+----------
+
+3. Principais Linguagens e Suas Aplicações
+
+C → Desenvolvimento de sistemas operacionais e software embarcado.
+
+Python → Inteligência artificial, ciência de dados e desenvolvimento web.
+
+Java → Aplicações empresariais, Android e servidores.
+
+JavaScript → Desenvolvimento web (frontend e backend).
+
+C++ → Jogos, motores gráficos e software de alto desempenho.
+
+SQL → Bancos de dados e manipulação de dados.
+
+Swift → Desenvolvimento de aplicativos iOS.
+
+----------
+
+As linguagens de programação evoluem constantemente para se adaptar às necessidades tecnológicas.

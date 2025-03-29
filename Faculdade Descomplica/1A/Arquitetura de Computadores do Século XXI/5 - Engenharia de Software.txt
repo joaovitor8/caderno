@@ -1,0 +1,162 @@
+A Engenharia de Software é a área da ciência da computação que estuda e aplica princípios, métodos e boas práticas para o desenvolvimento, manutenção e gerenciamento de software de forma eficiente e confiável. Seu objetivo é criar sistemas de software que sejam funcionais, escaláveis, seguros e fáceis de manter.
+
+----------
+
+Definição e Importância
+
+A Engenharia de Software surgiu para resolver problemas relacionados ao desenvolvimento de software, como:
+
+Atrasos em projetos.
+
+Custos elevados.
+
+Falhas e baixa qualidade do software.
+
+Dificuldade na manutenção e evolução dos sistemas.
+
+Com isso, essa disciplina propõe abordagens sistemáticas e disciplinadas para criar software de qualidade, considerando aspectos técnicos e gerenciais.
+
+----------
+
+O Ciclo de Vida do Software
+
+O ciclo de vida do software descreve as etapas envolvidas no desenvolvimento de um software, desde sua concepção até sua manutenção.
+
+a) Levantamento de Requisitos
+Nessa etapa, são identificadas as necessidades do cliente e documentadas em requisitos funcionais (o que o sistema deve fazer) e não funcionais (desempenho, segurança, usabilidade etc.).
+
+b) Análise e Projeto
+Análise: Modelagem dos requisitos e estrutura do sistema.
+
+Projeto: Definição da arquitetura, componentes e tecnologias que serão usadas.
+
+c) Implementação
+A fase de codificação, onde os programadores transformam o projeto em código-fonte utilizando linguagens de programação.
+
+d) Testes
+O software passa por testes para garantir que ele funciona corretamente. Alguns tipos de teste incluem:
+
+Testes unitários (testam partes individuais do código).
+
+Testes de integração (avaliam a interação entre módulos).
+
+Testes de sistema (verificam o software como um todo).
+
+Testes de aceitação (garantem que atende aos requisitos do usuário).
+
+e) Implantação
+O software é disponibilizado para uso pelos usuários finais, podendo ser instalado localmente ou disponibilizado em servidores ou na nuvem.
+
+f) Manutenção e Evolução
+Após a implantação, o software pode precisar de correções, atualizações e melhorias.
+
+----------
+
+Modelos de Desenvolvimento de Software
+
+A Engenharia de Software propõe diferentes modelos de desenvolvimento, cada um adequado para diferentes tipos de projetos:
+
+a) Modelo Cascata
+Segue um fluxo linear e sequencial.
+
+Cada fase precisa ser concluída antes da próxima iniciar.
+
+Simples, mas inflexível para mudanças.
+
+b) Modelo Incremental
+O software é desenvolvido e entregue em partes, permitindo ajustes ao longo do processo.
+
+c) Modelo Espiral
+Foca na avaliação de riscos e iterações, adequado para projetos complexos.
+
+d) Metodologias Ágeis (Scrum, Kanban, XP, etc.)
+Priorizam entregas rápidas e adaptação a mudanças.
+
+Baseiam-se em ciclos curtos de desenvolvimento (sprints).
+
+----------
+
+Engenharia de Requisitos
+A Engenharia de Requisitos é a disciplina responsável por identificar, documentar e gerenciar as necessidades do cliente.
+
+Tipos de requisitos:
+
+Funcionais: Especificam as funcionalidades do software.
+
+Não Funcionais: Definem restrições e qualidades, como segurança e desempenho.
+
+----------
+
+Arquitetura de Software
+
+A arquitetura de software define a estrutura de um sistema, incluindo seus componentes, interações e padrões.
+
+Algumas arquiteturas comuns:
+
+Monolítica: Todo o sistema é um único bloco.
+
+Cliente-Servidor: Divisão entre cliente (interface) e servidor (processamento).
+
+Microserviços: Sistema dividido em pequenos serviços independentes.
+
+----------
+
+Qualidade e Métricas de Software
+
+A qualidade do software é avaliada por métricas como:
+
+Manutenibilidade: Facilidade para corrigir e modificar o sistema.
+
+Confiabilidade: Funcionamento correto sob diferentes condições.
+
+Eficiência: Uso otimizado de recursos (CPU, memória, rede).
+
+Usabilidade: Facilidade de uso para os usuários.
+
+Ferramentas de testes e análise ajudam a garantir a qualidade do software.
+
+----------
+
+DevOps e Integração Contínua
+
+O DevOps é uma abordagem moderna que une desenvolvimento (Dev) e operações (Ops) para agilizar a entrega de software.
+
+Práticas do DevOps:
+
+Integração Contínua (CI): Automação de testes e integração do código frequentemente.
+
+Entrega Contínua (CD): Automação da implantação do software.
+
+Ferramentas como Docker, Kubernetes, Jenkins e GitHub Actions são comuns nesse modelo.
+
+----------
+
+Segurança no Desenvolvimento de Software
+
+A segurança é um aspecto crítico, sendo implementada por meio de:
+
+Criptografia para proteção de dados.
+
+Controle de acesso para evitar usuários não autorizados.
+
+Testes de segurança para identificar vulnerabilidades.
+
+Práticas como Secure Software Development Lifecycle (SSDLC) garantem que a segurança seja considerada desde o início do projeto.
+
+----------
+
+Tendências na Engenharia de Software
+
+Algumas tendências atuais incluem:
+
+Inteligência Artificial aplicada ao desenvolvimento (códigos gerados por IA).
+
+Low-code e No-code (plataformas que permitem desenvolvimento sem necessidade de programação profunda).
+
+Computação em Nuvem (desenvolvimento de sistemas escaláveis na nuvem).
+
+Desenvolvimento orientado a eventos (softwares reagem a eventos em tempo real).
+
+----------
+
+A Engenharia de Software é fundamental para garantir que sistemas sejam desenvolvidos com qualidade, segurança e eficiência. Ela envolve desde a definição de requisitos até a manutenção do software, passando por metodologias de desenvolvimento, testes e boas práticas.

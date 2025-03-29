@@ -1,0 +1,101 @@
+As redes de computadores permitem a comunicação e o compartilhamento de dados entre dispositivos interconectados. Elas são fundamentais para a internet e para a comunicação moderna.
+
+----------
+
+O Que é uma Rede de Computadores?
+
+Uma rede de computadores é um conjunto de dispositivos (computadores, servidores, roteadores, etc.) conectados para trocar informações e compartilhar recursos (arquivos, impressoras, internet).
+
+Exemplos:
+
+Rede doméstica: Conexão entre computadores, smartphones e smart TVs via Wi-Fi.
+
+Rede corporativa: Usada em empresas para conectar funcionários e servidores.
+
+Internet: A maior rede de computadores do mundo.
+
+----------
+
+Tipos de Redes de Computadores
+
+a) Classificação por Abrangência
+LAN (Local Area Network): Rede local, como dentro de uma casa ou escritório.
+
+MAN (Metropolitan Area Network): Cobre uma cidade ou região, como redes de universidades.
+
+WAN (Wide Area Network): Redes de longa distância, como a internet.
+
+b) Classificação por Topologia
+Barramento: Todos os dispositivos compartilham um único meio de transmissão.
+
+Estrela: Todos os dispositivos se conectam a um único ponto central (ex: roteador).
+
+Anel: Os dispositivos formam um círculo, onde os dados percorrem um caminho fechado.
+
+Malha (Mesh): Todos os dispositivos se conectam entre si, garantindo redundância.
+
+----------
+
+Protocolos de Comunicação
+
+Os protocolos são regras que determinam como os dispositivos se comunicam.
+
+TCP/IP: Base da internet, garante a transmissão confiável de dados.
+
+HTTP/HTTPS: Utilizado para acessar sites na web.
+
+FTP: Usado para transferência de arquivos.
+
+SMTP/IMAP/POP3: Protocolos para envio e recebimento de e-mails.
+
+DNS: Converte nomes de sites (ex: google.com) em endereços IP.
+
+----------
+
+Equipamentos de Rede
+
+Roteador: Direciona o tráfego entre redes e permite conexão com a internet.
+
+Switch: Conecta vários dispositivos dentro de uma rede local (LAN).
+
+Modem: Converte sinais da operadora de internet para o formato utilizado pelos dispositivos.
+
+Access Point: Expande a cobertura Wi-Fi.
+
+----------
+
+Modelo OSI – Camadas da Comunicação
+
+O modelo OSI (Open Systems Interconnection) divide a comunicação em 7 camadas:
+
+Física: Meio físico da transmissão (cabos, Wi-Fi).
+
+Enlace: Controle de acesso ao meio e detecção de erros.
+
+Rede: Define endereçamento IP e roteamento.
+
+Transporte: Garante entrega confiável de dados (ex: TCP).
+
+Sessão: Gerencia conexões entre dispositivos.
+
+Apresentação: Formatação e criptografia de dados.
+
+Aplicação: Interação com o usuário (ex: navegadores e e-mails).
+
+----------
+
+Segurança em Redes
+
+A segurança de redes protege dados contra acessos não autorizados.
+
+Firewall: Filtra tráfego para impedir ataques.
+
+Criptografia: Protege dados com codificação (ex: HTTPS).
+
+VPN: Cria conexões seguras para proteger a privacidade.
+
+Antivírus: Detecta e remove ameaças na rede.
+
+----------
+
+As redes de computadores são essenciais para a comunicação e compartilhamento de dados no mundo moderno. Elas funcionam com protocolos e equipamentos específicos, garantindo conectividade e segurança.

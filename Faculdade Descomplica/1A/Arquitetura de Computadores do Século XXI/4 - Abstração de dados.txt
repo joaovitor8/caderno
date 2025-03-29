@@ -1,0 +1,59 @@
+A abstração de dados é um conceito fundamental da Ciência da Computação que permite representar dados de forma simplificada, ocultando detalhes internos e expondo apenas as informações essenciais para o usuário ou programador.
+
+----------
+
+O Que é Abstração de Dados?
+
+A abstração ajuda a reduzir a complexidade dos sistemas, permitindo que os desenvolvedores trabalhem com modelos simplificados sem se preocupar com a implementação interna.
+
+Por exemplo:
+
+Um carro possui componentes internos complexos (motor, transmissão, circuitos eletrônicos), mas o motorista só precisa saber usar o volante, pedais e câmbio.
+
+Da mesma forma, uma lista em programação pode ser usada para armazenar dados sem que o programador precise saber como a memória é gerenciada internamente.
+
+----------
+
+Níveis de Abstração de Dados
+
+a) Nível Físico (Baixo Nível)
+Refere-se à forma como os dados são armazenados fisicamente na memória ou em discos.
+
+Exemplo: Representação binária de dados, alocação de memória.
+
+b) Nível Lógico (Intermediário)
+Descreve a estrutura dos dados sem especificar como eles são armazenados.
+
+Exemplo: Um banco de dados relacional exibe tabelas, mas os detalhes sobre índices e armazenamento físico são ocultos.
+
+c) Nível de Alto Nível (Usuário)
+Mostra os dados de forma simplificada para o usuário final.
+
+Exemplo: Uma interface gráfica exibe os contatos de um celular sem mostrar como os dados são organizados internamente.
+
+----------
+
+Abstração de Dados na Programação
+
+A abstração de dados é usada para organizar e manipular dados de forma eficiente.
+
+a) Tipos Abstratos de Dados (TADs)
+São estruturas de dados que definem o que elas fazem, sem expor como funcionam.
+
+Lista: Coleção ordenada de elementos.
+
+Fila (Queue): Segue a regra FIFO (First In, First Out).
+
+Pilha (Stack): Segue a regra LIFO (Last In, First Out).
+
+Dicionário/Mapa: Armazena pares chave-valor para busca eficiente.
+
+----------
+
+Abstração na Programação Orientada a Objetos (POO)
+
+Na POO (Programação Orientada a Objetos), a abstração é aplicada por meio de classes e métodos, que expõem apenas as informações essenciais e escondem a lógica interna.
+
+----------
+
+A abstração de dados é essencial para organizar e simplificar o desenvolvimento de software.

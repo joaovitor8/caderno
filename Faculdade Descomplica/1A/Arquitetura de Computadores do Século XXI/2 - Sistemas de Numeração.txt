@@ -1,0 +1,39 @@
+Os sistemas de numeração são conjuntos de regras e símbolos usados para representar números. Eles são fundamentais para a computação, pois permitem a manipulação e o armazenamento de dados. A seguir, apresento um resumo dos principais sistemas de numeração usados na computação:  
+
+----------
+
+Sistema Decimal (Base 10)
+
+É o sistema mais utilizado no dia a dia.
+Possui 10 dígitos: 0, 1, 2, 3, 4, 5, 6, 7, 8 e 9
+Cada posição de um número representa uma potência de 10
+ 
+----------
+
+Sistema Binário (Base 2)
+
+Usado pelos computadores, pois funciona com apenas dois símbolos: 0 e 1
+Cada posição de um número representa uma potência de 2.
+
+----------
+
+Sistema Octal (Base 8)
+
+Usa os dígitos de 0 a 7
+Cada posição representa uma potência de 8.
+
+É utilizado como uma forma compacta de representar números binários (já que cada dígito octal equivale a três bits).
+
+----------
+
+Sistema Hexadecimal (Base 16)
+
+Usa 16 símbolos:
+  Dígitos: 0 a 9
+  Letras: A, B, C, D, E, F (representam os valores 10 a 15).
+
+Muito usado na programação para representar grandes números binários de forma compacta (cada dígito hexadecimal equivale a quatro bits).
+
+----------
+
+Os sistemas de numeração são essenciais para a computação, pois formam a base do processamento de informações digitais.

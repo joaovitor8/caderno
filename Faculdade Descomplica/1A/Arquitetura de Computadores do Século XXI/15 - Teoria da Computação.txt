@@ -1,0 +1,101 @@
+A Teoria da Computação é uma área da ciência da computação que estuda as capacidades e limites dos computadores e dos algoritmos, bem como os modelos matemáticos que descrevem esses processos. Essa teoria fornece os fundamentos teóricos que orientam o design e a análise de algoritmos, linguagens de programação, e máquinas computacionais. O objetivo central dessa disciplina é entender o que pode ou não ser computado, sob quais condições, e quais são os recursos necessários para realizar essas tarefas.
+
+----------
+
+Definição e Importância
+
+A Teoria da Computação busca responder questões fundamentais sobre a natureza da computação. Ela é a base que fundamenta a computação moderna, fornecendo uma compreensão profunda dos modelos de computação, dos limites da computação e da complexidade de resolução de problemas.
+
+Essa teoria está intimamente ligada a outras áreas, como a matemática (particularmente a lógica e a teoria dos conjuntos) e a física (por exemplo, na computação quântica), e serve para:
+
+Proporcionar uma base formal para o desenvolvimento de algoritmos e sistemas computacionais.
+
+Identificar os problemas que podem ser resolvidos com algoritmos (ou seja, computáveis) e os problemas que não podem ser resolvidos por máquinas.
+
+Estudar a eficiência de algoritmos, em termos de tempo e espaço.
+
+----------
+
+Principais Áreas da Teoria da Computação
+
+A Teoria da Computação é dividida em várias subáreas principais, cada uma com seu foco específico.
+
+a) Máquinas de Turing
+A Máquina de Turing é um modelo abstrato de uma máquina computacional que formaliza a ideia de um algoritmo. Ela é composta por uma fita infinita, um cabeçote de leitura/escrita, e uma tabela de transições que determina o comportamento da máquina.
+
+Importância: A Máquina de Turing é considerada o modelo fundamental para entender a computação, e o conceito de Turing completo refere-se a sistemas computacionais que possuem capacidade equivalente à de uma Máquina de Turing.
+
+Decidibilidade: A Máquina de Turing ajuda a formalizar o conceito de decidibilidade, ou seja, se existe um algoritmo (ou máquina) que pode resolver um problema em um número finito de passos.
+
+b) Autômatos
+Os autômatos são modelos matemáticos de máquinas que reconhecem linguagens formais. Eles são usados para representar e estudar a computação de maneira mais simples que a Máquina de Turing.
+
+Existem diversos tipos de autômatos, como:
+
+Autômato Finito Determinístico (DFA): Reconhece linguagens regulares. Usado em linguagens de programação e compiladores.
+
+Autômato Finito Não Determinístico (NFA): Semelhante ao DFA, mas com transições múltiplas possíveis para o mesmo símbolo.
+
+Autômato de Pilha (PDA): Reconhece linguagens livres de contexto, muito usado para análise sintática em compiladores.
+
+Máquina de Turing: Como já mencionado, é mais poderosa e capaz de reconhecer linguagens mais complexas.
+
+c) Teoria das Linguagens Formais
+A Teoria das Linguagens Formais estuda as gramáticas e linguagens formais que podem ser processadas por autômatos ou Máquinas de Turing. Ela classifica as linguagens de acordo com sua complexidade, e descreve como elas podem ser geradas ou reconhecidas por diferentes tipos de máquinas.
+
+Algumas classificações importantes de linguagens incluem:
+
+Linguagens Regulares: São aquelas que podem ser reconhecidas por autômatos finitos e descritas por expressões regulares.
+
+Linguagens Livres de Contexto: São aquelas que podem ser reconhecidas por autômatos de pilha e descritas por gramáticas livres de contexto, como a gramática usada para definir a sintaxe de muitas linguagens de programação.
+
+Linguagens Sensíveis ao Contexto: São mais complexas e podem ser reconhecidas por uma Máquina de Turing com restrições.
+
+Linguagens Recursivamente Enumeráveis: São aquelas que podem ser geradas por uma Máquina de Turing, mas não necessariamente decidíveis.
+
+d) Teoria da Computabilidade
+A Teoria da Computabilidade lida com o estudo dos problemas que podem ou não ser resolvidos por computadores, ou seja, quais problemas são computáveis e quais são não computáveis.
+
+Problemas Computáveis: São aqueles que podem ser resolvidos por algum algoritmo. A Máquina de Turing formaliza a definição de um problema computável.
+
+Problemas Não Computáveis: São problemas para os quais não existe um algoritmo que possa sempre chegar a uma solução, como o Problema da Parada, que pergunta se uma máquina de Turing vai parar ou continuar indefinidamente.
+
+----------
+
+Complexidade Computacional
+
+A Complexidade Computacional estuda a quantidade de recursos (como tempo e memória) necessários para resolver um problema. Ela é fundamental para entender a eficiência dos algoritmos. A teoria da complexidade tem como foco a classificação dos problemas de acordo com sua dificuldade, usando categorias como:
+
+a) Classe P
+A classe P inclui todos os problemas que podem ser resolvidos em tempo polinomial (ou seja, o tempo de execução do algoritmo cresce de forma polinomial em relação ao tamanho da entrada). Esses problemas são considerados "fáceis" de resolver.
+
+b) Classe NP
+A classe NP inclui problemas para os quais uma solução proposta pode ser verificada em tempo polinomial, mas não se sabe se eles podem ser resolvidos em tempo polinomial. A famosa conjectura P ≠ NP questiona se todos os problemas que podem ser verificados em tempo polinomial também podem ser resolvidos em tempo polinomial.
+
+Problema NP-completo: Problemas que são tão difíceis quanto qualquer problema em NP, no sentido de que, se um problema NP-completo for resolvido rapidamente, então todos os problemas em NP podem ser resolvidos rapidamente.
+
+c) Classe NP-difícil
+A classe NP-difícil inclui problemas que não necessariamente estão em NP, mas são, no mínimo, tão difíceis quanto os problemas NP-completos. Esses problemas podem não ter uma solução eficiente, mas uma solução para qualquer um deles pode ser usada para resolver todos os problemas NP-completos.
+
+d) Problemas Exponenciais
+Alguns problemas têm uma complexidade exponencial, o que significa que o tempo de execução cresce muito rapidamente com o aumento do tamanho da entrada. Esses problemas são considerados "intratáveis" para grandes entradas.
+
+----------
+
+Reduções e Equivalência de Problemas
+
+A redução é um método importante para comparar a dificuldade de problemas. Se um problema A pode ser reduzido a um problema B de maneira eficiente, isso significa que se conseguirmos resolver B eficientemente, poderemos resolver A também.
+
+Redução Polinomial: Se podemos transformar um problema A em um problema B em tempo polinomial, dizemos que A é reduzível a B em tempo polinomial.
+
+----------
+
+Computação Quântica
+
+A computação quântica é uma área emergente que usa os princípios da mecânica quântica para realizar cálculos. Ela pode potencialmente resolver problemas mais rapidamente do que os computadores clássicos, especialmente problemas de fatoração e simulação de sistemas físicos complexos.
+
+O algoritmo de Shor, por exemplo, pode fatorar números grandes em tempo polinomial, o que não é possível para computadores clássicos em tempo razoável. A computação quântica está ainda em fase experimental, mas promete revolucionar a teoria da computação.
+
+----------
+
+A Teoria da Computação é um campo fundamental que forma a base de muitos tópicos avançados em ciência da computação. Ela estuda a natureza da computação e os limites do que pode ser computado, oferecendo uma base sólida para o desenvolvimento de algoritmos eficientes e para a compreensão dos problemas computacionais. A compreensão da teoria da computação permite a criação de tecnologias mais rápidas, eficientes e inovadoras, além de fornecer um quadro para a análise de novos paradigmas de computação, como a computação quântica.

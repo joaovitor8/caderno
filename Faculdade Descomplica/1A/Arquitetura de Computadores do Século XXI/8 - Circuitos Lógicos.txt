@@ -1,0 +1,88 @@
+Os circuitos lógicos são a base do funcionamento dos computadores e dispositivos eletrônicos. Eles utilizam portas lógicas para processar informações binárias (0s e 1s), realizando operações lógicas e matemáticas.
+
+----------
+
+O Que São Circuitos Lógicos?
+
+São circuitos eletrônicos que operam com níveis lógicos (alto = 1 e baixo = 0) para executar operações booleanas. Eles são compostos por portas lógicas, que combinam sinais elétricos para produzir saídas baseadas em regras pré-definidas.
+
+Os circuitos lógicos são amplamente utilizados em processadores, memórias, controladores e sistemas digitais.
+
+----------
+
+Portas Lógicas Básicas
+
+a) Porta AND (E)
+A saída é 1 apenas se todas as entradas forem 1.
+
+Tabela Verdade:
+
+A	B	Saída (A AND B)
+0	0	0
+0	1	0
+1	0	0
+1	1	1
+
+b) Porta OR (OU)
+A saída é 1 se pelo menos uma entrada for 1.
+
+Tabela Verdade:
+
+A	B	Saída (A OR B)
+0	0	0
+0	1	1
+1	0	1
+1	1	1
+
+c) Porta NOT (NÃO)
+Inverte o valor da entrada.
+
+Tabela Verdade:
+
+A	Saída (NOT A)
+0	1
+1	0
+
+----------
+
+Portas Lógicas Compostas
+
+a) Porta NAND (NÃO E)
+Inverso da AND (saída é 0 apenas se todas as entradas forem 1).
+
+Usada para construir qualquer outro circuito lógico.
+
+b) Porta NOR (NÃO OU)
+Inverso da OR (saída é 1 apenas se todas as entradas forem 0).
+
+c) Porta XOR (OU Exclusivo)
+A saída é 1 apenas se as entradas forem diferentes.
+
+----------
+
+Circuitos Combinacionais vs. Circuitos Sequenciais
+
+a) Circuitos Combinacionais
+A saída depende apenas das entradas atuais.
+
+Exemplos: Somadores, multiplexadores, decodificadores.
+
+b) Circuitos Sequenciais
+A saída depende das entradas e do estado anterior.
+
+Possuem memória e são usados em registradores e flip-flops.
+
+----------
+
+Aplicações dos Circuitos Lógicos
+Unidade Lógica e Aritmética (ULA) dos processadores.
+
+Memórias RAM e ROM.
+
+Sistemas embarcados, como sensores e microcontroladores.
+
+Eletrônicos digitais, como calculadoras e relógios.
+
+----------
+
+Os circuitos lógicos são a base do processamento digital, permitindo que computadores e dispositivos realizem operações matemáticas e de controle. Eles combinam portas lógicas para formar circuitos mais complexos, como processadores e memórias.
