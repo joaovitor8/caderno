@@ -1,0 +1,98 @@
+Os algoritmos são a base da programação e da ciência da computação. Eles representam sequências bem definidas de passos ou instruções que resolvem um problema ou executam uma tarefa específica. Um algoritmo pode ser implementado em diversas linguagens de programação, mas sua essência é independente de qualquer linguagem específica.
+
+----------
+
+Definição de Algoritmo
+
+Um algoritmo é uma sequência finita e ordenada de instruções que resolve um problema específico. Para ser considerado um algoritmo, ele deve apresentar as seguintes características:
+
+Finitude: Deve ter um número finito de passos.
+
+Definição: Cada passo deve ser bem definido e claro.
+
+Entrada: Deve receber zero ou mais valores como entrada.
+
+Saída: Deve produzir pelo menos uma saída.
+
+Efetividade: Todas as operações devem ser simples o suficiente para serem executadas em um tempo razoável.
+
+----------
+
+Representação de Algoritmos
+
+Os algoritmos podem ser representados de diferentes formas, dependendo da necessidade. As principais são:
+
+a) Linguagem Natural
+Uma descrição textual dos passos do algoritmo, escrita em linguagem comum. Essa abordagem pode ser ambígua, portanto, não é ideal para algoritmos complexos.
+
+b) Pseudocódigo
+É uma forma estruturada e padronizada de descrever algoritmos. Usa comandos semelhantes à programação, mas sem a rigidez de uma linguagem formal.
+
+c) Fluxogramas
+São representações gráficas de algoritmos, utilizando símbolos padronizados. Os principais símbolos incluem:
+
+Elipse: Indica início ou fim.
+
+Paralelogramo: Indica entrada ou saída de dados.
+
+Retângulo: Representa um processo ou operação.
+
+Losango: Representa uma decisão ou condição lógica.
+
+----------
+
+3. Estruturas de Controle
+Os algoritmos são compostos por diferentes estruturas que definem o fluxo de execução. As principais são:
+
+a) Estrutura Sequencial
+A execução segue um fluxo linear, com instruções executadas uma após a outra.
+
+b) Estrutura Condicional (Decisão)
+Permite a execução de diferentes instruções com base em uma condição.
+
+c) Estruturas de Repetição (Laços)
+Permitem a execução repetida de um bloco de código, dependendo de uma condição.
+
+Enquanto (While) → Repete enquanto a condição for verdadeira.
+
+Para (For) → Repete um número específico de vezes.
+
+Repita...Até (Do...While) → Executa ao menos uma vez e repete até que a condição seja falsa.
+
+----------
+
+Análise de Algoritmos
+
+A eficiência de um algoritmo é analisada com base em tempo de execução e uso de memória. Os principais conceitos são:
+
+Complexidade de tempo: Mede quantos passos um algoritmo leva para ser executado em relação ao tamanho da entrada.
+
+Complexidade de espaço: Mede a quantidade de memória usada pelo algoritmo.
+
+A notação Big-O é utilizada para descrever a eficiência assintótica de um algoritmo. Alguns exemplos comuns:
+
+O(1) – Tempo constante (exemplo: acessar um elemento de uma lista).
+
+O(log n) – Tempo logarítmico (exemplo: busca binária).
+
+O(n) – Tempo linear (exemplo: percorrer uma lista).
+
+O(n²) – Tempo quadrático (exemplo: algoritmos de ordenação ineficientes como o Bubble Sort).
+
+----------
+
+Importância dos Algoritmos na Programação
+
+Os algoritmos são fundamentais para a programação porque:
+
+Melhoram a eficiência e o desempenho dos programas.
+
+Ajudam na resolução de problemas complexos de maneira estruturada.
+
+Permitem a análise e otimização de software.
+
+Servem como base para o desenvolvimento de inteligência artificial, segurança da informação e outras áreas.
+
+----------
+
+A Introdução a Algoritmos é um dos temas mais importantes para qualquer estudante de computação. Compreender algoritmos permite criar soluções eficientes para problemas computacionais, independentemente da linguagem de programação utilizada. Além disso, a análise de algoritmos ajuda a escolher a melhor abordagem para resolver um problema com menos tempo e menos uso de recursos computacionais.
