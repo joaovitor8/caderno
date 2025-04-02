@@ -1,0 +1,77 @@
+A Engenharia de Software é uma disciplina da computação que aplica princípios de engenharia para o desenvolvimento de sistemas de software de alta qualidade, de forma sistemática, disciplinada e mensurável. Ela abrange todo o ciclo de vida do software, desde a concepção até a manutenção, visando atender às necessidades dos usuários e garantir a eficiência dos processos.
+
+**Definição**
+
+Segundo Ian Sommerville, a Engenharia de Software é uma disciplina que lida com todos os aspectos da produção de software, desde a especificação inicial até a manutenção após a entrada em operação.
+
+**Histórico**
+
+O termo "Engenharia de Software" surgiu na década de 1960, durante uma conferência patrocinada pela OTAN, como resposta à chamada "crise do software". Essa crise referia-se aos desafios enfrentados no desenvolvimento de sistemas complexos, incluindo atrasos, custos elevados e baixa qualidade. A proposta era aplicar técnicas de engenharia ao desenvolvimento de software para superar esses problemas.
+
+**Princípios Fundamentais**
+
+A Engenharia de Software baseia-se em diversos princípios que orientam suas práticas:
+
+- **Rigor e Formalidade**: Aplicação de métodos rigorosos e, quando possível, formais para aumentar a confiabilidade do software.
+
+- **Separação de Interesses**: Divisão de problemas complexos em partes menores e mais gerenciáveis.
+
+- **Modularidade**: Divisão do sistema em módulos independentes, facilitando a compreensão e a manutenção.
+
+- **Abstração**: Foco nos aspectos essenciais de um componente, ignorando detalhes desnecessários.
+
+- **Antecipação a Mudanças**: Projeto do software considerando possíveis evoluções e adaptações futuras.
+
+- **Generalidade**: Desenvolvimento de soluções que possam ser reutilizadas em diferentes contextos.
+
+- **Incrementação**: Desenvolvimento do software em etapas incrementais, permitindo feedback contínuo e ajustes.
+
+
+**Áreas de Conhecimento**
+
+De acordo com o SWEBOK (Software Engineering Body of Knowledge), as principais áreas de conhecimento da Engenharia de Software são:
+
+1. **Requisitos de Software**: Processo de definição das funcionalidades e restrições do software.
+
+2. **Projeto de Software**: Criação da estrutura e arquitetura do software com base nos requisitos.
+
+3. **Construção de Software**: Codificação e implementação das funcionalidades definidas.
+
+4. **Teste de Software**: Verificação e validação do software para assegurar sua qualidade.
+
+5. **Manutenção de Software**: Atualização e aprimoramento contínuo do software após sua entrega.
+
+6. **Gerência de Configuração de Software**: Controle das mudanças e versões do software.
+
+7. **Gerência de Engenharia de Software**: Planejamento e coordenação do processo de desenvolvimento.
+
+8. **Processos de Engenharia de Software**: Definição e melhoria dos processos utilizados no desenvolvimento.
+
+9. **Ferramentas e Métodos de Engenharia de Software**: Utilização de técnicas e ferramentas para apoiar o desenvolvimento.
+
+10. **Qualidade de Software**: Garantia de que o software atende aos padrões e requisitos estabelecidos.
+
+**Processo de Desenvolvimento de Software**
+
+O desenvolvimento de software envolve várias etapas fundamentais:
+
+- **Análise de Requisitos**: Coleta e definição das necessidades dos usuários.
+
+- **Especificação**: Descrição detalhada do que o software deve fazer.
+
+- **Projeto (Design)**: Planejamento da solução, incluindo arquitetura e interfaces.
+
+- **Implementação (Codificação)**: Escrita do código-fonte do software.
+
+- **Teste**: Verificação do funcionamento correto do software.
+
+- **Manutenção**: Correção de erros e implementação de melhorias após a entrega.
+
+
+**Importância no Mercado Atual**
+
+A Engenharia de Software é crucial para o desenvolvimento, manutenção e aprimoramento contínuo dos sistemas que utilizamos diariamente. Em 2022, o mercado global de software foi avaliado em mais de 429 bilhões de dólares, com perspectivas de crescimento impulsionado por tecnologias emergentes como inteligência artificial, computação em nuvem e internet das coisas. citeturn0search8
+
+**Conclusão**
+
+A Engenharia de Software é essencial para a criação de sistemas eficientes, confiáveis e adaptáveis às necessidades em constante mudança dos usuários e do mercado. Ao aplicar princípios de engenharia no desenvolvimento de software, busca-se garantir qualidade, eficiência e satisfação dos stakeholders envolvidos. 

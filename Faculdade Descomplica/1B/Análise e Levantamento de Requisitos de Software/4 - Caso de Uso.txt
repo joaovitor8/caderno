@@ -1,0 +1,56 @@
+Os **Casos de Uso** são uma técnica fundamental na Engenharia de Software para capturar e descrever os requisitos funcionais de um sistema. Eles detalham as interações entre os usuários (atores) e o sistema, especificando como o sistema deve se comportar para atender às necessidades dos usuários.
+
+**Diagrama de Caso de Uso - Processo de Construção**
+
+A construção de um diagrama de caso de uso envolve os seguintes passos:
+
+1. **Identificação dos Atores**: Determine quem interage com o sistema, sejam usuários finais, outros sistemas ou dispositivos.
+
+2. **Identificação dos Casos de Uso**: Liste as principais funcionalidades ou serviços que o sistema deve oferecer aos atores.
+
+3. **Definição dos Relacionamentos**: Estabeleça como os atores interagem com os casos de uso e como os casos de uso se relacionam entre si.
+
+4. **Desenho do Diagrama**: Utilize notações padronizadas da UML para representar visualmente os atores, casos de uso e seus relacionamentos.
+
+Este processo ajuda a visualizar as funcionalidades do sistema e as interações dos usuários de forma clara e organizada.
+
+**Diagrama de Caso de Uso - Aplicação**
+
+Os diagramas de caso de uso são aplicados para:
+
+- **Compreender Requisitos**: Facilitam a comunicação entre stakeholders, garantindo um entendimento comum das funcionalidades do sistema.
+
+- **Planejamento de Projetos**: Auxiliam na definição do escopo do projeto e na estimativa de esforço necessário para o desenvolvimento.
+
+- **Base para Testes**: Servem como referência para a criação de casos de teste, assegurando que todas as funcionalidades sejam verificadas.
+
+Ao aplicar diagramas de caso de uso, as equipes de desenvolvimento podem alinhar melhor as expectativas dos usuários com as funcionalidades a serem implementadas.
+
+**Especificação de Caso de Uso**
+
+A especificação de um caso de uso detalha as interações entre os atores e o sistema. Uma especificação típica inclui:
+
+- **Nome do Caso de Uso**: Identificação única e descritiva.
+
+- **Descrição**: Resumo do objetivo do caso de uso.
+
+- **Atores**: Lista dos atores envolvidos.
+
+- **Pré-Condições**: Condições que devem ser verdadeiras antes da execução.
+
+- **Fluxo Principal**: Sequência padrão de interações.
+
+- **Fluxos Alternativos**: Variações ou exceções ao fluxo principal.
+
+- **Pós-Condições**: Estado esperado do sistema após a execução.
+
+Essa especificação detalhada é essencial para o desenvolvimento, pois fornece uma compreensão clara das funcionalidades e comportamentos esperados do sistema.
+
+**Caso de Uso e Descrição de Caso de Uso**
+
+Um **Caso de Uso** representa uma funcionalidade específica do sistema vista da perspectiva do usuário. Já a **Descrição de Caso de Uso** é a documentação detalhada dessa funcionalidade, incluindo todos os elementos mencionados na especificação.
+
+A descrição detalhada dos casos de uso é vital para assegurar que todos os stakeholders compartilhem um entendimento comum das funcionalidades do sistema, servindo como base para o design, implementação e testes.
+
+
+https://www.youtube.com/watch?v=b7HV3lJLysI
