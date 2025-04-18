@@ -1,3 +1,10 @@
+Recomendações
+Tempo = grafico de linha
+
+
+
+---
+
 Importação e Configuração
 import matplotlib.pyplot as plt → Importa o módulo principal da Matplotlib para criação de gráficos.
 plt.style.use('ggplot') → Define um estilo para os gráficos (outros estilos: `'seaborn'`, `'classic'`, etc.).
