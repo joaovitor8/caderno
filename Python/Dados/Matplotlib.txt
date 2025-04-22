@@ -1,6 +1,6 @@
 Recomendações
+Quantidade = grafico de barra
 Tempo = grafico de linha
-
 
 
 ---
