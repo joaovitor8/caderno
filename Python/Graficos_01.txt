@@ -1,0 +1,50 @@
+
+TIPOS DE GRÁFICOS EM DATA SCIENCE - EXPLICAÇÃO SIMPLES
+
+📊 1. GRÁFICO DE BARRAS
+- Para que serve: Comparar valores de categorias (ex: vendas por produto).
+- Quando usar: Quando quiser mostrar qual grupo tem mais ou menos valor.
+- Exemplo: Vendas de camisetas por cor: azul, vermelha, verde.
+
+📈 2. GRÁFICO DE LINHAS
+- Para que serve: Mostrar mudanças ao longo do tempo (ex: evolução de temperatura).
+- Quando usar: Se você tem uma série temporal (dias, meses, anos...).
+- Exemplo: Número de acessos a um site por dia.
+
+🥧 3. GRÁFICO DE PIZZA (OU SETORES)
+- Para que serve: Mostrar a proporção de partes de um todo.
+- Quando usar: Quando quiser mostrar porcentagens ou fatias.
+- Exemplo: Porcentagem de usuários por tipo de dispositivo: celular, desktop, tablet.
+
+📉 4. GRÁFICO DE DISPERSÃO (SCATTER PLOT)
+- Para que serve: Mostrar a relação entre duas variáveis numéricas.
+- Quando usar: Quando quiser ver padrões ou correlação entre variáveis.
+- Exemplo: Altura vs peso de pessoas.
+
+📦 5. BOXPLOT (GRÁFICO DE CAIXA)
+- Para que serve: Mostrar a distribuição de dados e possíveis outliers (valores fora do comum).
+- Quando usar: Para analisar distribuição estatística (mediana, quartis).
+- Exemplo: Distribuição de salários em uma empresa.
+
+🔲 6. HEATMAP (MAPA DE CALOR)
+- Para que serve: Mostrar a intensidade de valores com cores.
+- Quando usar: Ao analisar correlação ou frequência entre variáveis.
+- Exemplo: Correlação entre colunas numéricas de um dataset.
+
+📊 7. HISTOGRAMA
+- Para que serve: Mostrar a frequência de valores numéricos (divididos em faixas).
+- Quando usar: Para ver como os dados estão distribuídos.
+- Exemplo: Quantas pessoas têm entre 20-30, 30-40, etc.
+
+FERRAMENTAS MAIS USADAS PARA FAZER GRÁFICOS:
+- Python (matplotlib, seaborn, plotly)
+- Excel ou Google Sheets
+- Tableau / Power BI
+
+DICA RÁPIDA PARA ESCOLHER O GRÁFICO:
+| Objetivo                          | Gráfico recomendado       |
+|----------------------------------|---------------------------|
+| Comparar categorias              | Barras ou Pizza           |
+| Mostrar tendência ao longo do tempo | Linha                    |
+| Ver correlação entre variáveis   | Dispersão (Scatter Plot)  |
+| Ver distribuição de dados        | Histograma ou Boxplot     |

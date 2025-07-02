@@ -1,0 +1,57 @@
+
+📊 TIPOS DE GRÁFICOS EM DATA SCIENCE (EXPLICAÇÃO SIMPLES)
+
+1. GRÁFICO DE BARRAS (Bar Plot)
+Quando usar: Comparar valores entre categorias (ex: número de clientes por cidade).
+Exemplo em Python:
+    import seaborn as sns
+    sns.barplot(x=["SP", "RJ", "MG"], y=[100, 80, 60])
+Dica: Fácil de comparar valores entre grupos. Eixo X = categorias | Eixo Y = valor numérico
+
+2. GRÁFICO DE LINHAS (Line Plot)
+Quando usar: Mostrar a evolução ao longo do tempo (ex: vendas por mês).
+Exemplo:
+    import matplotlib.pyplot as plt
+    plt.plot(["Jan", "Fev", "Mar"], [200, 250, 300])
+Dica: Bom para tendências, ideal para séries temporais.
+
+3. GRÁFICO DE PIZZA (Pie Chart)
+Quando usar: Mostrar proporções de um todo (ex: % de vendas por produto).
+Exemplo:
+    plt.pie([50, 30, 20], labels=["Produto A", "B", "C"], autopct="%1.1f%%")
+Dica: Útil para poucas categorias. Evite usar com muitos dados.
+
+4. BOXPLOT (Gráfico de Caixa)
+Quando usar: Ver distribuição, mediana, e outliers (ex: salário por departamento).
+Exemplo:
+    sns.boxplot(data=[3000, 3200, 3100, 15000])
+Dica: Mostra mínimo, Q1, mediana, Q3 e máximo.
+
+5. GRÁFICO DE DISPERSÃO (Scatter Plot)
+Quando usar: Ver relação entre duas variáveis numéricas (ex: idade x renda).
+Exemplo:
+    plt.scatter([20, 25, 30], [2000, 3000, 4000])
+Dica: Identifica correlações ou tendências.
+
+6. HISTOGRAMA
+Quando usar: Mostrar frequência de valores em intervalos (ex: quantos clientes têm certa faixa de idade).
+Exemplo:
+    plt.hist([22, 23, 23, 24, 25, 30, 35], bins=5)
+Dica: Mostra forma da distribuição (normal, assimétrica, etc).
+
+EXEMPLO REAL COM PANDAS + SEABORN:
+    import pandas as pd
+    import seaborn as sns
+    df = sns.load_dataset("tips")
+    sns.barplot(x="day", y="total_bill", data=df)
+Esse gráfico mostra o valor médio da conta por dia da semana no restaurante.
+
+RESUMO RÁPIDO:
+| Gráfico          | Usar para...                   | Tipo de dado |
+|------------------|--------------------------------|---------------|
+| Barras           | Comparar categorias            | Categórico x Numérico |
+| Linhas           | Ver tendência temporal         | Tempo x Numérico |
+| Pizza            | Ver partes de um todo          | Categórico |
+| Boxplot          | Analisar distribuição e outliers| Numérico |
+| Dispersão        | Ver correlação                 | Numérico x Numérico |
+| Histograma       | Frequência de valores          | Numérico |
