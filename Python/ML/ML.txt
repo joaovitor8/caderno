@@ -1,7 +1,0 @@
-**Naive Bayes** é um classificador probabilístico baseado no Teorema de Bayes. Ele assume que as características (features) são independentes entre si, o que é uma simplificação (daí o termo "naive" ou ingênuo). Apesar dessa suposição, ele é bastante eficaz em muitas situações práticas, especialmente quando se trata de grandes volumes de dados.
-
-----------------------------------------------------------------------------------------------------
-
-**Árvore de Decisão** é um algoritmo que utiliza uma estrutura de árvore para tomar decisões baseadas em regras de "se-então". Cada nó interno da árvore representa uma característica (ou atributo), cada ramo representa uma regra de decisão, e cada nó folha representa um resultado.
-
-----------------------------------------------------------------------------------------------------

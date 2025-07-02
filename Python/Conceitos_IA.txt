@@ -1,0 +1,56 @@
+CONCEITOS DE INTELIGÊNCIA ARTIFICIAL (IA)
+
+1. Inteligência Artificial (IA)
+É a área da computação que busca criar sistemas capazes de simular a inteligência humana — como aprender, raciocinar, resolver problemas e tomar decisões.
+
+
+
+2. Aprendizado de Máquina (Machine Learning - ML)
+É um subcampo da IA onde os sistemas "aprendem" a partir de dados, sem serem explicitamente programados. Exemplo: o YouTube recomendando vídeos com base no que você assiste.
+- Supervisionado: usa dados rotulados (ex: imagem com rótulo “gato”).
+- Não supervisionado: identifica padrões sem rótulos (ex: agrupamento).
+- Reforço: aprende com tentativa e erro, baseado em recompensas.
+
+
+
+3. Redes Neurais Artificiais
+Inspiradas no cérebro humano, são modelos que processam informações em camadas. Muito usadas em reconhecimento de voz, imagem e texto.
+
+
+
+4. Deep Learning (Aprendizado Profundo)
+É uma forma de aprendizado de máquina que usa redes neurais com muitas camadas (deep = profundo). Ideal para tarefas mais complexas, como chatbots ou carros autônomos.
+
+
+
+5. Processamento de Linguagem Natural (PLN / NLP)
+Área da IA que permite aos computadores entenderem, interpretarem e gerarem linguagem humana (ex: tradutores automáticos, ChatGPT).
+
+
+
+6. Algoritmo
+Um conjunto de regras ou instruções que dizem ao sistema como resolver um problema. São a base de todo sistema de IA.
+
+
+
+7. Classificação e Regressão
+- Classificação: prever categorias (ex: spam ou não-spam).
+- Regressão: prever valores contínuos (ex: preço de uma casa).
+
+
+
+8. Dataset (Conjunto de Dados)
+É o "alimento" da IA. São os dados usados para treinar, validar e testar os modelos.
+
+
+
+9. Treinamento e Validação
+- Treinamento: o modelo aprende com os dados.
+- Validação/Teste: verifica se o modelo está generalizando bem.
+
+
+
+10. Overfitting e Underfitting
+- Overfitting: o modelo aprende demais dos dados (inclusive os erros).
+- Underfitting: o modelo aprende de menos, não capta os padrões.
+

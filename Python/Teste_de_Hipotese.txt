@@ -1,0 +1,80 @@
+O que é Teste de Hipótese?
+  É uma técnica estatística usada para tomar decisões com base em dados.
+
+  Você cria uma suposição (hipótese) sobre algo, e depois usa dados para verificar se essa suposição provavelmente é verdadeira ou falsa.
+
+----------------------------------------------------------------------------------------------------
+
+Exemplo:
+  Suponha que você acha que o tempo médio de entrega de uma empresa é maior que 30 minutos.
+
+  Hipótese nula (H₀): o tempo médio = 30 minutos
+  Hipótese alternativa (H₁): o tempo médio > 30 minutos
+
+  Você coleta dados (ex: 50 entregas) e faz cálculos estatísticos para saber se pode rejeitar a hipótese nula com confiança.
+
+----------------------------------------------------------------------------------------------------
+
+Etapas do Teste de Hipótese na área de dados:
+
+Definir as hipóteses
+  H₀ (hipótese nula): situação “normal” ou padrão
+  H₁ (hipótese alternativa): o que você quer provar
+
+Escolher o tipo de teste
+  Ex: teste t, teste z, teste qui-quadrado (depende do tipo de dado)
+
+Coletar dados
+  Ex: tempos de entrega, vendas, cliques, etc.
+
+Calcular a estatística do teste
+  Usando ferramentas como Python, R, Excel ou calculadora estatística
+
+Obter o p-valor
+   O p-valor mostra a chance de observar os dados se H₀ for verdadeira
+
+Comparar com o nível de significância (α)
+   Normalmente α = 0,05 (ou seja, 5% de tolerância de erro)
+   Se p-valor < α → Rejeita H₀
+
+
+----------------------------------------------------------------------------------------------------
+
+Exemplo com Python (simples):
+
+----------
+from scipy import stats
+
+# Suponha que você tem tempos de entrega:
+tempos = [32, 29, 35, 31, 28, 34, 33, 30, 36, 31]
+
+# Quer testar se o tempo médio é maior que 30 minutos
+# H₀: média <= 30
+# H₁: média > 30
+
+# Teste t unilateral (maior que)
+t_stat, p_valor = stats.ttest_1samp(tempos, popmean=30)
+
+# Como é um teste unilateral, divide o p-valor por 2
+p_valor_unilateral = p_valor / 2
+
+print("p-valor:", p_valor_unilateral)
+
+if p_valor_unilateral < 0.05:
+    print("Rejeita H₀: o tempo médio é maior que 30 min")
+else:
+    print("Não rejeita H₀: não há evidência de que seja maior")
+----------
+
+
+----------------------------------------------------------------------------------------------------
+
+Resumo Rápido:
+
+| Termo             | Significado                                   |
+|-------------------|-----------------------------------------------|
+| H₀ (nula)         | Hipótese que você quer testar (padrão)        |
+| H₁ (alternativa)  | O que você quer provar                        |
+| p-valor           | Probabilidade de os dados ocorrerem se H₀ for verdadeira |
+| α (alfa)          | Margem de erro (ex: 0,05 = 5%)                |
+| Rejeitar H₀       | Quando o p-valor é menor que α                |
