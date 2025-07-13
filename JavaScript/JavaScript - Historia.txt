@@ -13,11 +13,3 @@ O quê ECMAScript tem a ver com JavaScript?
   ECMAscript é a linguagem, e javascript é um dialeto, ou seja, a mesma coisa. 
   Cada navegador implementa o javascript de uma maneira diferente e o papel do ecmascript e padronizar essas implementacoes, para que voce nao precise como antigamente escrever um codigo para alguns navegadores e outro codigo para o internet explorer por exemplo.
 
-
----------------------------------------------------------------------------------------------------
-
-Variaveis
-
-var   - Escopo global, todo mundo pode acessar
-let   - Escopo local, apenas quem esta no mesmo escopo pode acessar
-const - Escopo local, imutavel, apos passar um valor não podera muda-lo
