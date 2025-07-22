@@ -1,9 +1,0 @@
-try:                 Vai tentar fazer a operação
-  operação
-except:              Se deu problema vai retornar a mensagem de erro   (posso ter varios except)
-  falhou
-else:                Se deu certo vai retornar a operação   (opcional)
-  deu certo
-finally:             Vai retornar algo independente se deu certo ou errado   (opcional)
-   certo / falha
-

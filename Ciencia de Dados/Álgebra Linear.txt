@@ -1,0 +1,83 @@
+----- Álgebra Linear -----
+
+A álgebra linear é baseada em matrizes
+Uma matriz nada mais é do que um conjunto de números  N = | -1  7 |
+                                                          |  3  2 |
+
+Usada na resolução de sistemas lineares  2x + 3y =  0
+                                         4x - 2y = -7
+
+Notação
+  Oque é?
+  Como identificar as dimensões de uma matriz?
+
+
+A = | -1  7 |  =>  2 linhas e 2 colunas
+    |  3  2 |      Matriz 2 x 2 (ou matriz quadrada)
+
+
+B = |  2  3  0 |  => Matriz retangular
+    |  4 -2 -7 |
+
+
+    |   5 |
+C = |  11 |  => Matriz retangular
+    |  -5 |     Matriz coluna
+
+
+D = |  2  1 -8 |  => Matriz retangular
+                     Matriz linha
+
+
+Acessando os elementos de uma Matriz:
+
+LETRAij  =>  Letra - Se refere a letra da matriz
+                 i - Linha
+                 j - coluna
+
+Exemplos: A22 = 2
+          A12 = 7
+          B13 = 0
+          C32 = N/A
+          C22 = N/A
+          D12 = 1
+
+
+Tipos de Matrizes
+
+Matriz quadrada - Mesma quantidade de linhas e coluns iguais
+
+Matriz nula - Todos os elements iguais a zero   A = | 0 0 | 
+                                                    | 0 0 |
+
+Matriz diagonal - Uma matriz quadrada onde todos os              | -1  0  0 |
+elementos são iguais a zero, exeto os da diagnal principal   A = |  0  5  0 |
+   DIAGNAL PRICIPAL = ESQUERDA para a DIREITA                    |  0  0  8 |
+
+Matriz identidade - Uma matriz diagonal com valores iguais a 1        |  1  0  0 |
+                                                                  A = |  0  1  0 |
+                                                                      |  0  0  1 |
+
+
+Operação
+
+Adição e Subtração
+ Apenas matrizes de mesma dimensão podem ser adicionadas ou subtraidas
+
+Multiplicação por Escalar
+  Voce tem uma MATRIZ A e vai multiplicar por qualquer numero, EX: 8.A
+
+Matriz Transpostas
+  A coluna vira linha e a lina vira coluna, ou virce-verça
+
+Multiplicação entre Matrizes
+  Qual quer matriz A pode ser multiplicada por outra matriz B desde que o
+  numero de colunas de A seja igual ao numero de linhas de B
+
+  O produto entre A e B sera uma matriz C com o mesmo numero de linhas
+  de A e o mesmo numero de colunas de B
+
+  Não é pq eu consigo multiplicar A por B que sera possivel multiplicar B por A, a ordem importa
+
+
+Matriz inversa e o Determimante

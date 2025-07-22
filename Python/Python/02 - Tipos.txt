@@ -1,4 +1,0 @@
-int     Números inteiros desde negativos a positivos
-float   Números com ponto(virgula) desde negativos a positivos
-bool    Valores  True  e  False
-str     Tudo que estiver entre  aspas  desde textos, numeros ou até mesmo um valor vazio

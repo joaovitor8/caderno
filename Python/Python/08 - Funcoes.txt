@@ -1,8 +1,0 @@
-def nome_função(parametros, se tiver):
-  Instrução
-  Instrução
-  Instrução
-
-  retun   (opcional)
-
-
