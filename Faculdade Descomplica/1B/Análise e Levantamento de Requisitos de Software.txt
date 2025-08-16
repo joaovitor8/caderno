@@ -1,0 +1,55 @@
+Resumo - Análise e Levantamento de Requisitos de Software
+
+Engenharia de Software - Disciplina que aplica métodos e processos para
+desenvolvimento de sistemas - Foco em qualidade, custo e prazo
+
+Requisitos de Sistemas - Funcionais: descrevem o que o sistema deve
+fazer - Não funcionais: desempenho, segurança, usabilidade
+
+Levantamento de Requisitos - Técnicas: entrevistas, questionários,
+observação, brainstorming - Objetivo: entender as necessidades do
+cliente/usuário
+
+Engenharia de Requisitos - Conjunto de atividades para identificar,
+documentar e gerenciar requisitos - Etapas: elicitação, análise,
+especificação, validação
+
+Processos de Levantamento de Requisitos - Elicitação → coleta - Análise
+→ refino - Documentação → registro - Validação → verificação com o
+cliente
+
+Representação de Requisitos - Textual (documentos) - Gráfica (diagramas
+UML, BPMN)
+
+Diagrama de Caso de Uso - Processo de Construção - Identificação de
+atores - Identificação de casos de uso - Relacionamentos (inclusão,
+extensão, generalização)
+
+Diagrama de Caso de Uso - Aplicação - Mostra funcionalidades do sistema
+vistas pelo usuário - Foco no “o quê” e não no “como”
+
+Especificação de Caso de Uso - Descrição detalhada do fluxo de eventos -
+Cenários principais e alternativos
+
+Caso de Uso e Descrição de Caso de Uso - Caso de uso: ação ou serviço do
+sistema - Descrição: detalhamento em texto ou tabelas
+
+Projeto Prático - Caso de Uso - Aplicação em sistemas reais - Base para
+desenvolvimento de requisitos funcionais
+
+Modelagem do Processo - Representação gráfica do fluxo de atividades de
+negócio - Ajuda na análise e melhoria de processos
+
+Modelagem de Processo - Construção - Identificação de atividades,
+eventos, decisões - Ferramenta comum: BPMN (Business Process Model and
+Notation)
+
+Projeto Prático - Modelagem BPMN - Desenho de processos reais com
+símbolos BPMN - Representa fluxos de trabalho e interação entre atores
+
+Garantia e Qualidade de Software - Atividades para assegurar que o
+software atende padrões - Testes, auditorias, revisões
+
+Gerência de Manutenção - Corrigir defeitos, melhorar desempenho, adaptar
+a novas necessidades - Tipos: corretiva, adaptativa, evolutiva,
+preventiva
