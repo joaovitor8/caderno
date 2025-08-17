@@ -1,0 +1,95 @@
+Sistemas Operacionais
+
+
+
+## 1. Introdução de Sistemas Operacionais
+* Software que gerencia hardware e recursos de um computador.
+* **Objetivos**: eficiência, segurança, abstração, controle de recursos.
+* **Tipos**: monolítico, microkernel, híbrido.
+
+---
+## 2. Processadores e Ambiente Multithreading
+* **Processo**: programa em execução.
+* **Thread**: unidade de execução dentro de um processo.
+* **Multithreading**: execução paralela de threads → aproveita múltiplos núcleos.
+
+---
+## 3. Gerência de Memória
+* SO controla alocação de memória para processos.
+* **Alocação Contígua**: blocos contínuos de RAM.
+* **Paginação**: divide memória em páginas fixas → evita fragmentação externa.
+* **Segmentação**: divide memória em segmentos lógicos (código, dados, pilha).
+
+---
+## 4. Gerência de Entrada e Saída (I/O)
+* Abstrai dispositivos físicos → uniformiza acesso.
+* **Buffering**: armazenamento temporário.
+* **Spooling**: fila de tarefas (ex.: impressoras).
+* **DMA**: acesso direto à memória, libera CPU.
+
+---
+## 5. Gerência de Armazenamento
+* Controle de discos, SSDs, sistemas de arquivos.
+* SO organiza diretórios, arquivos e permissões.
+
+---
+## 6. Memória Virtual
+* Extensão da RAM usando disco.
+* Permite execução de programas maiores que a memória física.
+* Gerenciamento via tabelas de páginas e swap.
+
+---
+## 7. Placa-Mãe: Desktop e Servidores
+* Controles básicos de hardware: barramentos, sockets, slots de memória.
+* SO interage com chipset e controladores de I/O.
+
+---
+## 8. Endereçamento e Processos
+* **Endereço lógico → virtual → físico** (via MMU).
+* **Contexto do processo**: registradores, contador de programa, pilha.
+
+---
+## 9. Chamadas de Sistema e Interrupções
+* **Syscalls**: interface entre processos e SO.
+* **Interrupções**: notificações do hardware para SO agir imediatamente.
+
+---
+## 10. Threads e Ambiente Multiprogramação
+* **Multiprogramação**: múltiplos processos na memória, CPU alterna entre eles.
+* **Threads** → leve paralelismo, melhor utilização de CPU.
+
+---
+## 11. Comunicação entre Processos (IPC)
+* Sinais, pipes, filas de mensagens, memória compartilhada.
+* Permite coordenação e troca de dados entre processos.
+
+---
+## 12. Semáforos e Uso em Sistemas Operacionais
+* Variáveis especiais para controle de concorrência.
+* Evita condições de corrida e controla acesso a recursos compartilhados.
+
+---
+## 13. Recursos Reutilizáveis
+* Ex.: impressora, disco → acesso controlado por SO.
+* **Técnicas**: semáforos, mutexes, monitores.
+
+---
+## 14. Escalonamento Preemptivo e Não Preemptivo
+* **Preemptivo**: SO pode interromper processo ativo → prioriza outros.
+* **Não Preemptivo**: processo só libera CPU voluntariamente.
+* **Políticas**: FIFO, Round Robin, Prioridade, Multinível.
+
+---
+## 15. Versões de Sistemas Operacionais Modernos e em Nuvem
+* **Desktop**: Windows, Linux, macOS.
+* **Servidores**: Linux Server, Windows Server.
+* **Nuvem**: SO abstraído pelo provedor → gerência de containers e VMs (AWS, Azure, GCP).
+
+---
+## Resumindo:
+* **SO** = gerente de recursos (CPU, memória, I/O).
+* **Threads, processos e multiprogramação** → eficiência do processador.
+* **Semáforos e IPC** → controle seguro de concorrência.
+* **Virtualização e SO em nuvem** → abstração da infraestrutura.
+
+
