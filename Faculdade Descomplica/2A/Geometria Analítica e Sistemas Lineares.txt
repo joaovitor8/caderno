@@ -1,0 +1,92 @@
+Geometria Analítica e Sistemas Lineares
+
+
+
+## Álgebra Linear
+### Introdução Matrizes
+* Tabelas numéricas (linhas × colunas)
+* Representam sistemas lineares e transformações
+
+### Operações com Matrizes
+* Soma: mesma ordem
+* Produto por escalar
+* Produto matricial: linhas × colunas (não comutativo)
+
+### Determinantes (Propriedades)
+* Usados em área/volume e resolução de sistemas
+* Determinante de matriz triangular = produto da diagonal
+* |AB| = |A|·|B|
+
+### Matriz Inversa
+* Existe apenas se det(A) ≠ 0
+* A⁻¹·A = I (Matriz Identidade)
+* Cálculo: adj(A)/det(A)
+
+### Sistema Linear
+* Equações lineares representadas em forma matricial (AX = B)
+* Classificação: possível/determinado, possível/indeterminado, impossível
+
+### Sistema Linear Escalonamento
+* Método de Gauss (linha por linha)
+* Usado para resolver sistemas
+* Pivot = elemento principal de cada linha
+
+---
+## Geometria Analítica e Vetores
+### Vetores no Plano e no Espaço (geométrico)
+* Operações: soma, subtração, multiplicação por escalar
+* Ângulo entre vetores → via produto escalar
+
+### Vetores no Plano e no Espaço (algébrico – gráficos e operações)
+* Representados como coordenadas (x, y, z)
+* Soma: (x₁+x₂, y₁+y₂, z₁+z₂)
+* Oposição: (−x, −y, −z)
+
+### Vetores (definido por 2 pontos; paralelismo; módulo)
+* AB = (xB − xA, yB − yA, zB − zA)
+* Paralelismo → vetores proporcionais
+* Módulo = √(x² + y² + z²)
+
+---
+## Produtos de Vetores
+### Produto Escalar
+* u·v = |u||v|cosθ = x₁x₂ + y₁y₂ + z₁z₂
+* Usado em ângulo e projeção ortogonal
+
+### Produto Vetorial
+* u × v = vetor ⟂ a u e v
+* |u×v| = |u||v|senθ
+* Usado em áreas de paralelogramo
+
+### Produto Misto
+* u·(v×w)
+* Interpretação: volume do paralelepípedo
+
+---
+## Retas e Planos
+### Estudo da Reta
+* Equações paramétricas: (x, y, z) = (x₀, y₀, z₀) + t(vx, vy, vz)
+* Equação vetorial → ponto + direção
+* Ângulo entre retas → produto escalar dos vetores diretores
+
+### Estudo do Plano
+* Forma geral: ax + by + cz + d = 0
+* Normal = (a, b, c)
+* Ângulo entre planos → ângulo entre normais
+
+### Distâncias
+* Ponto a reta/plano → fórmulas específicas
+* Posição relativa: paralelas, coincidentes, concorrentes, reversas
+
+---
+## Seções Cônicas
+### Elipse
+* Definição: soma das distâncias a dois focos é constante
+* Equação: (x²/a²) + (y²/b²) = 1 (a > b)
+* Excentricidade e focos: e = √(1 − b²/a²)
+
+---
+## Resumindo:
+* Álgebra linear → ferramentas para resolver sistemas (matrizes, determinantes).
+* Geometria analítica → vetores, retas, planos, distâncias e cônicas (formas geométricas no espaço).
+
