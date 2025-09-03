@@ -1,103 +1,124 @@
 Redes de Computadores
 
 
-
-## Introdução à Redes
-* Conexão entre dispositivos para troca de dados
-* Componentes: hosts, switches, roteadores, meio físico
-* Tipos: LAN, WAN, MAN, WLAN
-
----
-## Tecnologias e Protocolos
-* **Protocolo** = regras de comunicação (ex: HTTP, TCP, IP)
-* **Tecnologias**: cabeada (Ethernet) e sem fio (Wi-Fi)
-* Importância da **padronização** (IETF, IEEE)
+Introdução à Redes:
+ Conexão entre dispositivos para troca de dados
+ Componentes: hosts, switches, roteadores, meio físico
+ Tipos: LAN, WAN, MAN, WLAN
 
 ---
-## Principais Modelos
-* **OSI** (7 camadas) → referência teórica
-* **TCP/IP** (4 camadas) → modelo prático da internet
-* **Encapsulamento** e **desencapsulamento**
+
+Tecnologias e Protocolos:
+ Protocolo = regras de comunicação (ex: HTTP, TCP, IP)
+ Tecnologias: cabeada (Ethernet) e sem fio (Wi-Fi)
+ Importância da padronização (IETF, IEEE)
 
 ---
-## Comunicação e Camada Física
-* Bits transmitidos pelo meio físico (cabos, ondas)
-* Meios: cobre (UTP), fibra óptica, rádio
-* Taxa de transmissão, largura de banda
+
+Principais Modelos:
+ OSI (7 camadas) → referência teórica
+ TCP/IP (4 camadas) → modelo prático da internet
+ Encapsulamento e desencapsulamento
 
 ---
-## Cabeamentos e Conexões
-* **UTP/STP** → cabos de par trançado
-* **Fibra óptica** → alta velocidade, longas distâncias
-* Conectores: RJ-45, LC, SC
+
+Comunicação e Camada Física:
+ Bits transmitidos pelo meio físico (cabos, ondas)
+ Meios: cobre (UTP), fibra óptica, rádio
+ Taxa de transmissão, largura de banda
 
 ---
-## Conversões e Sistemas Numéricos
-* **Binário ↔ Decimal ↔ Hexadecimal**
-* Importante para endereços IP e máscaras
-* Exemplo: 11111111 (binário) = 255 (decimal)
+
+Cabeamentos e Conexões:
+ UTP/STP → cabos de par trançado
+ Fibra óptica → alta velocidade, longas distâncias
+ Conectores: RJ-45, LC, SC
 
 ---
-## Camada de Enlace
-* Responsável por **quadros (frames)**
-* **Controle de acesso ao meio** (CSMA/CD, CSMA/CA)
-* Detecção de erros (CRC)
-* Exemplo: Ethernet, Wi-Fi
+
+Conversões e Sistemas Numéricos:
+ Binário ↔ Decimal ↔ Hexadecimal
+ Importante para endereços IP e máscaras
+ Exemplo: 11111111 (binário) = 255 (decimal)
 
 ---
-## Comutação Ethernet
-* **Switch** encaminha frames com base no MAC
-* Tabelas de endereços MAC
-* Domínios de colisão x domínios de broadcast
+
+Camada de Enlace:
+ Responsável por quadros (frames)
+ Controle de acesso ao meio (CSMA/CD, CSMA/CA)
+ Detecção de erros (CRC)
+ Exemplo: Ethernet, Wi-Fi
 
 ---
-## Camada de Rede
-* **Encaminhamento de pacotes (roteamento)**
-* Protocolos: IPv4, IPv6, ICMP
-* **Roteadores** tomam decisões de caminho
+
+Comutação Ethernet:
+ Switch encaminha frames com base no MAC
+ Tabelas de endereços MAC
+ Domínios de colisão x domínios de broadcast
 
 ---
-## Resolução de Endereços e Estrutura IPv4
-* **ARP** → converte IP em MAC
-* Estrutura **IPv4**: 32 bits (4 octetos)
-* Classes A, B, C (histórico), hoje → **CIDR**
+
+Camada de Rede:
+ Encaminhamento de pacotes (roteamento)
+ Protocolos: IPv4, IPv6, ICMP
+ Roteadores tomam decisões de caminho
 
 ---
-## Endereços e Segmentação no IPv4
-* **Máscara de sub-rede** (ex: /24)
-* Rede x Host
-* **Subnetting** → dividir rede em menores
+
+Resolução de Endereços e Estrutura IPv4:
+ ARP → converte IP em MAC
+ Estrutura IPv4: 32 bits (4 octetos)
+ Classes A, B, C (histórico), hoje → **CIDR**
 
 ---
-## Endereçamento IPv6
-* **128 bits** → muito mais endereços
-* Notação hexadecimal abreviada
-* Tipos: unicast, multicast, anycast
+
+Endereços e Segmentação no IPv4:
+ Máscara de sub-rede (ex: /24)
+ Rede x Host
+ Subnetting → dividir rede em menores
 
 ---
-## Camada de Transporte
-* Controle de ponta a ponta
-* **TCP** → confiável, orientado à conexão
-* **UDP** → rápido, sem garantia
-* **Portas** (ex: 80, 443, 53)
+
+Endereçamento IPv6:
+ 128 bits (32 valores) → muito mais endereços
+ Notação hexadecimal abreviada
+ Tipos: unicast, multicast, anycast
+ GUAs - LLAs
 
 ---
-## Camada de Aplicação
-* Interface com o usuário
-* Protocolos: HTTP, FTP, SMTP, DNS
-* Serviços visíveis (web, email, etc.)
+
+Camada de Transporte:
+ Controle de ponta a ponta
+ Transporte de Dados: 
+ TCP → confiável, orientado à conexão  |  FLAGs: URG/ACK/PSH/RST/SYN/FIN
+  Estabelecimento de Sessão
+  Garantia de Entrega Confiavel
+  Fornecimento de Entrega Ordenada
+  Suporte a contrele de fluxo
+ UDP → rápido, sem garantia de entrega
+ Portas (ex: 80, 443, 53)
 
 ---
-## Projetando uma rede
-* Requisitos: segurança, escalabilidade, desempenho
-* **Topologias**: estrela, barramento, malha
-* Equipamentos: switch, roteador, firewall
+
+Camada de Aplicação:
+ Interface com o usuário
+ Protocolos: HTTP, FTP, SMTP, DNS
+ Serviços visíveis (web, email, etc.)
 
 ---
-## Tópicos Avançados de Redes
-* QoS (Qualidade de Serviço)
-* VPNs (redes privadas virtuais)
-* SDN (Software Defined Networking)
-* IoT e 5G
-* Segurança: firewall, IDS/IPS
+
+Projetando uma rede:
+ Requisitos: segurança, escalabilidade, desempenho
+ Topologias: estrela, barramento, malha
+ Equipamentos: switch, roteador, firewall
+
+---
+
+Tópicos Avançados de Redes:
+ QoS (Qualidade de Serviço)
+ VPNs (redes privadas virtuais)
+ SDN (Software Defined Networking)
+ IoT e 5G
+ Segurança: firewall, IDS/IPS
+
 
